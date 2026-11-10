@@ -4,4 +4,4 @@ scorer/config.json
 *key*.json
 !scorer/impersonators.json
 .env
-screenshots/
+site/screenshots/
