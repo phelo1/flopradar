@@ -1,0 +1,5266 @@
+{
+ "schema_version": "1.0",
+ "name": "FlopRadar: independent trust scores for Flop Network apps",
+ "network": "flop-devnet",
+ "generated_at": "2026-11-10T06:44:07.687Z · claims check applied Tue 2026-11-10 (UTC+03:00)",
+ "status": "devnet prototype: devnet FLOP has no value; scores are indicative",
+ "weights": {
+  "reliability": 0.25,
+  "quality": 0.25,
+  "speed": 0.15,
+  "cost": 0.1,
+  "safety": 0.25
+ },
+ "voting": {
+  "enabled": false,
+  "max_weight": 0.15,
+  "voter_weights": {
+   "anonymous": 0.2,
+   "wallet_signed": 1,
+   "wallet_with_settled_sessions": 3
+  },
+  "status": "Community voting opens soon"
+ },
+ "summary": {
+  "items": 53,
+  "ranked_overall": 40,
+  "guides_ranked_in_category_only": 10,
+  "flagged": 3,
+  "categories": 10,
+  "inference_tested": false,
+  "claims_check": {
+   "checked_at": "2026-11-10",
+   "verdicts": {
+    "Verified": 42,
+    "Partly": 7,
+    "Untestable": 1,
+    "Not verified": 3
+   },
+   "penalties": {
+    "Verified": 0,
+    "Partly": -5,
+    "Not verified": -15,
+    "Untestable": 0
+   }
+  }
+ },
+ "leaderboard": [
+  {
+   "rank": 1,
+   "id": "flop-labs-technocore-chat",
+   "name": "technocore-chat",
+   "category": "Agent network & identity",
+   "trust_score": 99,
+   "confidence": "high"
+  },
+  {
+   "rank": 2,
+   "id": "joxp-flop-agent",
+   "name": "flop-agent (JoXp)",
+   "category": "Agent network & identity",
+   "trust_score": 97.2,
+   "confidence": "high"
+  },
+  {
+   "rank": 3,
+   "id": "zkasuran-flop-lab",
+   "name": "flop-lab suite",
+   "category": "Dashboards & explorers",
+   "trust_score": 96.6,
+   "confidence": "high"
+  },
+  {
+   "rank": 4,
+   "id": "reddragon-observatory",
+   "name": "RedDragon FLOP Community Observatory",
+   "category": "Research & analysis",
+   "trust_score": 96.4,
+   "confidence": "high"
+  },
+  {
+   "rank": 5,
+   "id": "evidence-scout",
+   "name": "FLOP Evidence Scout",
+   "category": "Research & analysis",
+   "trust_score": 95.0,
+   "confidence": "high"
+  },
+  {
+   "rank": 6,
+   "id": "omerbek-local-miner",
+   "name": "FLOP LOCAL MINER diagnostics",
+   "category": "Miner & validator tooling",
+   "trust_score": 94.4,
+   "confidence": "high"
+  },
+  {
+   "rank": 7,
+   "id": "dizcorvus-airdrop-skill",
+   "name": "FLOP Airdrop Skill (dizcorvus)",
+   "category": "Guides & docs",
+   "trust_score": 94.4,
+   "confidence": "high"
+  },
+  {
+   "rank": 8,
+   "id": "loferbart-broker-readiness",
+   "name": "FLOP Broker Readiness Lab",
+   "category": "Research & analysis",
+   "trust_score": 93.1,
+   "confidence": "high"
+  },
+  {
+   "rank": 9,
+   "id": "flop-mcp",
+   "name": "FLOP hosted MCP (mcp.flop.network)",
+   "category": "Developer SDKs & APIs",
+   "trust_score": 91.7,
+   "confidence": "high"
+  },
+  {
+   "rank": 10,
+   "id": "flop-faucet",
+   "name": "FLOP devnet faucet",
+   "category": "Developer SDKs & APIs",
+   "trust_score": 91.7,
+   "confidence": "high"
+  },
+  {
+   "rank": 11,
+   "id": "flop-labs-sdk",
+   "name": "@flop-labs/sdk (npm)",
+   "category": "Developer SDKs & APIs",
+   "trust_score": 91.7,
+   "confidence": "high"
+  },
+  {
+   "rank": 12,
+   "id": "makabeez-devnet-board",
+   "name": "FLOP devnet board",
+   "category": "Dashboards & explorers",
+   "trust_score": 91.7,
+   "confidence": "high"
+  },
+  {
+   "rank": 13,
+   "id": "flop-labs-tclk",
+   "name": "tclk (Technocore Lock Protocol)",
+   "category": "Trading & crypto data",
+   "trust_score": 90.9,
+   "confidence": "medium"
+  },
+  {
+   "rank": 14,
+   "id": "makabeez-pc-miner",
+   "name": "flop-pc-miner (Windows/WSL)",
+   "category": "Miner & validator tooling",
+   "trust_score": 90.9,
+   "confidence": "medium"
+  },
+  {
+   "rank": 15,
+   "id": "flop-explorer",
+   "name": "FLOP devnet explorer",
+   "category": "Dashboards & explorers",
+   "trust_score": 90.3,
+   "confidence": "high"
+  },
+  {
+   "rank": 16,
+   "id": "syphiliis-flop-key",
+   "name": "FLOP key (browser did:key + devnet address)",
+   "category": "Agent network & identity",
+   "trust_score": 89.9,
+   "confidence": "high"
+  },
+  {
+   "rank": 17,
+   "id": "oversight-flopstar",
+   "name": "Flopstar",
+   "category": "Research & analysis",
+   "trust_score": 88.5,
+   "confidence": "medium"
+  },
+  {
+   "rank": 18,
+   "id": "volkstiger-technocore-pulse",
+   "name": "technocore-pulse",
+   "category": "Dashboards & explorers",
+   "trust_score": 87.9,
+   "confidence": "medium"
+  },
+  {
+   "rank": 19,
+   "id": "lumi-observatory",
+   "name": "LUMI Agentic Observatory",
+   "category": "Chat assistants",
+   "trust_score": 87.9,
+   "confidence": "medium"
+  },
+  {
+   "rank": 20,
+   "id": "syphiliis-gpu-miner",
+   "name": "flop-gpu-miner (one command)",
+   "category": "Miner & validator tooling",
+   "trust_score": 87.9,
+   "confidence": "medium"
+  },
+  {
+   "rank": 21,
+   "id": "flop-labs-codescape",
+   "name": "codescape",
+   "category": "Coding tools",
+   "trust_score": 86.4,
+   "confidence": "medium"
+  },
+  {
+   "rank": 22,
+   "id": "makabeez-devnet-starter",
+   "name": "flop-devnet-starter",
+   "category": "Developer SDKs & APIs",
+   "trust_score": 86,
+   "confidence": "medium"
+  },
+  {
+   "rank": 23,
+   "id": "hermes-flop",
+   "name": "Hermes Desktop on FLOP (flop-public provider)",
+   "category": "Chat assistants",
+   "trust_score": 85.2,
+   "confidence": "medium"
+  },
+  {
+   "rank": 24,
+   "id": "kriptolia-miner-tool",
+   "name": "flop-miner-tool",
+   "category": "Miner & validator tooling",
+   "trust_score": 84.8,
+   "confidence": "medium"
+  },
+  {
+   "rank": 25,
+   "id": "alpertungax1-toolkit",
+   "name": "flop-network-toolkit",
+   "category": "Developer SDKs & APIs",
+   "trust_score": 84.3,
+   "confidence": "medium"
+  },
+  {
+   "rank": 26,
+   "id": "danenright-agent-runner",
+   "name": "FLOP agent runner",
+   "category": "Developer SDKs & APIs",
+   "trust_score": 80.3,
+   "confidence": "medium"
+  },
+  {
+   "rank": 27,
+   "id": "flop-gateway-api",
+   "name": "FLOP gateway API (api.flop.network/v1)",
+   "category": "Developer SDKs & APIs",
+   "trust_score": 78.5,
+   "confidence": "medium"
+  },
+  {
+   "rank": 28,
+   "id": "villenave-agent-kit",
+   "name": "flop-agent-kit (eligibility)",
+   "category": "Developer SDKs & APIs",
+   "trust_score": 76.6,
+   "confidence": "medium"
+  },
+  {
+   "rank": 29,
+   "id": "noviceborsaeng-flop-ready",
+   "name": "flop-ready",
+   "category": "Miner & validator tooling",
+   "trust_score": 75.4,
+   "confidence": "medium"
+  },
+  {
+   "rank": 30,
+   "id": "uxp-devnet-lab",
+   "name": "flop-devnet-lab (spend guard, receipts, viewer)",
+   "category": "Developer SDKs & APIs",
+   "trust_score": 72.5,
+   "confidence": "medium"
+  },
+  {
+   "rank": 31,
+   "id": "flop-index-api",
+   "name": "flop-index-api",
+   "category": "Dashboards & explorers",
+   "trust_score": 72.2,
+   "confidence": "high"
+  },
+  {
+   "rank": 32,
+   "id": "floppy-desktop",
+   "name": "FLOPPY desktop agent",
+   "category": "Agent network & identity",
+   "trust_score": 70.7,
+   "confidence": "medium"
+  },
+  {
+   "rank": 33,
+   "id": "githubbjj-flop-session",
+   "name": "flop-session",
+   "category": "Developer SDKs & APIs",
+   "trust_score": 70.3,
+   "confidence": "medium"
+  },
+  {
+   "rank": 34,
+   "id": "divindi-flop-gateway",
+   "name": "flop-gateway (agent-side client + MCP)",
+   "category": "Developer SDKs & APIs",
+   "trust_score": 69.6,
+   "confidence": "medium"
+  },
+  {
+   "rank": 35,
+   "id": "joeboy-protocol-toolkit",
+   "name": "FLOP Agent & Protocol Toolkit",
+   "category": "Research & analysis",
+   "trust_score": 66.9,
+   "confidence": "medium"
+  },
+  {
+   "rank": 36,
+   "id": "alex-evidence-agent",
+   "name": "Alex FLOP Evidence Agent",
+   "category": "Research & analysis",
+   "trust_score": 63.3,
+   "confidence": "medium"
+  },
+  {
+   "rank": 37,
+   "id": "flop-social",
+   "name": "FLOP Social",
+   "category": "Agent network & identity",
+   "trust_score": 61.8,
+   "confidence": "medium"
+  },
+  {
+   "rank": 38,
+   "id": "nxrskyaa-airdrop-skill",
+   "name": "flop-airdrop-skill (nxrskyaa)",
+   "category": "Other",
+   "trust_score": 61.5,
+   "confidence": "medium"
+  },
+  {
+   "rank": 39,
+   "id": "flop-karma",
+   "name": "FLOP Karma",
+   "category": "Dashboards & explorers",
+   "trust_score": 50.5,
+   "confidence": "medium"
+  },
+  {
+   "rank": 40,
+   "id": "gpaul26-flop-devnet",
+   "name": "Flop-Devnet (Gpaul26)",
+   "category": "Other",
+   "trust_score": 35.1,
+   "confidence": "medium"
+  }
+ ],
+ "categories": [
+  {
+   "category": "Developer SDKs & APIs",
+   "count": 11,
+   "ranked_count": 11,
+   "flagged_count": 0,
+   "top": {
+    "id": "flop-mcp",
+    "name": "FLOP hosted MCP (mcp.flop.network)",
+    "trust_score": 91.7
+   },
+   "ranking": [
+    {
+     "rank": 1,
+     "id": "flop-mcp",
+     "name": "FLOP hosted MCP (mcp.flop.network)",
+     "trust_score": 91.7,
+     "confidence": "high"
+    },
+    {
+     "rank": 2,
+     "id": "flop-faucet",
+     "name": "FLOP devnet faucet",
+     "trust_score": 91.7,
+     "confidence": "high"
+    },
+    {
+     "rank": 3,
+     "id": "flop-labs-sdk",
+     "name": "@flop-labs/sdk (npm)",
+     "trust_score": 91.7,
+     "confidence": "high"
+    },
+    {
+     "rank": 4,
+     "id": "makabeez-devnet-starter",
+     "name": "flop-devnet-starter",
+     "trust_score": 86,
+     "confidence": "medium"
+    },
+    {
+     "rank": 5,
+     "id": "alpertungax1-toolkit",
+     "name": "flop-network-toolkit",
+     "trust_score": 84.3,
+     "confidence": "medium"
+    },
+    {
+     "rank": 6,
+     "id": "danenright-agent-runner",
+     "name": "FLOP agent runner",
+     "trust_score": 80.3,
+     "confidence": "medium"
+    },
+    {
+     "rank": 7,
+     "id": "flop-gateway-api",
+     "name": "FLOP gateway API (api.flop.network/v1)",
+     "trust_score": 78.5,
+     "confidence": "medium"
+    },
+    {
+     "rank": 8,
+     "id": "villenave-agent-kit",
+     "name": "flop-agent-kit (eligibility)",
+     "trust_score": 76.6,
+     "confidence": "medium"
+    },
+    {
+     "rank": 9,
+     "id": "uxp-devnet-lab",
+     "name": "flop-devnet-lab (spend guard, receipts, viewer)",
+     "trust_score": 72.5,
+     "confidence": "medium"
+    },
+    {
+     "rank": 10,
+     "id": "githubbjj-flop-session",
+     "name": "flop-session",
+     "trust_score": 70.3,
+     "confidence": "medium"
+    },
+    {
+     "rank": 11,
+     "id": "divindi-flop-gateway",
+     "name": "flop-gateway (agent-side client + MCP)",
+     "trust_score": 69.6,
+     "confidence": "medium"
+    }
+   ]
+  },
+  {
+   "category": "Miner & validator tooling",
+   "count": 10,
+   "ranked_count": 10,
+   "flagged_count": 0,
+   "top": {
+    "id": "omerbek-local-miner",
+    "name": "FLOP LOCAL MINER diagnostics",
+    "trust_score": 94.4
+   },
+   "ranking": [
+    {
+     "rank": 1,
+     "id": "omerbek-local-miner",
+     "name": "FLOP LOCAL MINER diagnostics",
+     "trust_score": 94.4,
+     "confidence": "high"
+    },
+    {
+     "rank": 2,
+     "id": "makabeez-pc-miner",
+     "name": "flop-pc-miner (Windows/WSL)",
+     "trust_score": 90.9,
+     "confidence": "medium"
+    },
+    {
+     "rank": 3,
+     "id": "ufuknode-miner-setup",
+     "name": "FLOP GPU miner setup guide (UfukNode)",
+     "trust_score": 89.4,
+     "confidence": "medium"
+    },
+    {
+     "rank": 4,
+     "id": "syphiliis-gpu-miner",
+     "name": "flop-gpu-miner (one command)",
+     "trust_score": 87.9,
+     "confidence": "medium"
+    },
+    {
+     "rank": 5,
+     "id": "andadream-operator-guide",
+     "name": "FLOP Operator Guide",
+     "trust_score": 87.9,
+     "confidence": "medium"
+    },
+    {
+     "rank": 6,
+     "id": "mztacat-validator-miner",
+     "name": "Validator + GPU miner guide (mztacat)",
+     "trust_score": 87.3,
+     "confidence": "medium"
+    },
+    {
+     "rank": 7,
+     "id": "vlsss12-miner-guide",
+     "name": "FLOP miner community guide",
+     "trust_score": 86.4,
+     "confidence": "medium"
+    },
+    {
+     "rank": 8,
+     "id": "ufuknode-validator-setup",
+     "name": "FLOP validator preparation guide (UfukNode)",
+     "trust_score": 85.3,
+     "confidence": "medium"
+    },
+    {
+     "rank": 9,
+     "id": "kriptolia-miner-tool",
+     "name": "flop-miner-tool",
+     "trust_score": 84.8,
+     "confidence": "medium"
+    },
+    {
+     "rank": 10,
+     "id": "noviceborsaeng-flop-ready",
+     "name": "flop-ready",
+     "trust_score": 75.4,
+     "confidence": "medium"
+    }
+   ]
+  },
+  {
+   "category": "Research & analysis",
+   "count": 8,
+   "ranked_count": 8,
+   "flagged_count": 0,
+   "top": {
+    "id": "reddragon-observatory",
+    "name": "RedDragon FLOP Community Observatory",
+    "trust_score": 96.4
+   },
+   "ranking": [
+    {
+     "rank": 1,
+     "id": "reddragon-observatory",
+     "name": "RedDragon FLOP Community Observatory",
+     "trust_score": 96.4,
+     "confidence": "high"
+    },
+    {
+     "rank": 2,
+     "id": "evidence-scout",
+     "name": "FLOP Evidence Scout",
+     "trust_score": 95.0,
+     "confidence": "high"
+    },
+    {
+     "rank": 3,
+     "id": "loferbart-broker-readiness",
+     "name": "FLOP Broker Readiness Lab",
+     "trust_score": 93.1,
+     "confidence": "high"
+    },
+    {
+     "rank": 4,
+     "id": "oversight-flopstar",
+     "name": "Flopstar",
+     "trust_score": 88.5,
+     "confidence": "medium"
+    },
+    {
+     "rank": 5,
+     "id": "flop-labs-yellowpaper",
+     "name": "FLOP yellowpaper",
+     "trust_score": 86.5,
+     "confidence": "medium"
+    },
+    {
+     "rank": 6,
+     "id": "jorden323-devnet-report",
+     "name": "FLOP devnet measurement report",
+     "trust_score": 80,
+     "confidence": "medium"
+    },
+    {
+     "rank": 7,
+     "id": "joeboy-protocol-toolkit",
+     "name": "FLOP Agent & Protocol Toolkit",
+     "trust_score": 66.9,
+     "confidence": "medium"
+    },
+    {
+     "rank": 8,
+     "id": "alex-evidence-agent",
+     "name": "Alex FLOP Evidence Agent",
+     "trust_score": 63.3,
+     "confidence": "medium"
+    }
+   ]
+  },
+  {
+   "category": "Agent network & identity",
+   "count": 6,
+   "ranked_count": 5,
+   "flagged_count": 1,
+   "top": {
+    "id": "flop-labs-technocore-chat",
+    "name": "technocore-chat",
+    "trust_score": 99
+   },
+   "ranking": [
+    {
+     "rank": 1,
+     "id": "flop-labs-technocore-chat",
+     "name": "technocore-chat",
+     "trust_score": 99,
+     "confidence": "high"
+    },
+    {
+     "rank": 2,
+     "id": "joxp-flop-agent",
+     "name": "flop-agent (JoXp)",
+     "trust_score": 97.2,
+     "confidence": "high"
+    },
+    {
+     "rank": 3,
+     "id": "syphiliis-flop-key",
+     "name": "FLOP key (browser did:key + devnet address)",
+     "trust_score": 89.9,
+     "confidence": "high"
+    },
+    {
+     "rank": 4,
+     "id": "floppy-desktop",
+     "name": "FLOPPY desktop agent",
+     "trust_score": 70.7,
+     "confidence": "medium"
+    },
+    {
+     "rank": 5,
+     "id": "flop-social",
+     "name": "FLOP Social",
+     "trust_score": 61.8,
+     "confidence": "medium"
+    }
+   ]
+  },
+  {
+   "category": "Dashboards & explorers",
+   "count": 6,
+   "ranked_count": 6,
+   "flagged_count": 0,
+   "top": {
+    "id": "zkasuran-flop-lab",
+    "name": "flop-lab suite",
+    "trust_score": 96.6
+   },
+   "ranking": [
+    {
+     "rank": 1,
+     "id": "zkasuran-flop-lab",
+     "name": "flop-lab suite",
+     "trust_score": 96.6,
+     "confidence": "high"
+    },
+    {
+     "rank": 2,
+     "id": "makabeez-devnet-board",
+     "name": "FLOP devnet board",
+     "trust_score": 91.7,
+     "confidence": "high"
+    },
+    {
+     "rank": 3,
+     "id": "flop-explorer",
+     "name": "FLOP devnet explorer",
+     "trust_score": 90.3,
+     "confidence": "high"
+    },
+    {
+     "rank": 4,
+     "id": "volkstiger-technocore-pulse",
+     "name": "technocore-pulse",
+     "trust_score": 87.9,
+     "confidence": "medium"
+    },
+    {
+     "rank": 5,
+     "id": "flop-index-api",
+     "name": "flop-index-api",
+     "trust_score": 72.2,
+     "confidence": "high"
+    },
+    {
+     "rank": 6,
+     "id": "flop-karma",
+     "name": "FLOP Karma",
+     "trust_score": 50.5,
+     "confidence": "medium"
+    }
+   ]
+  },
+  {
+   "category": "Guides & docs",
+   "count": 4,
+   "ranked_count": 4,
+   "flagged_count": 0,
+   "top": {
+    "id": "flop-labs-network",
+    "name": "flop-labs/network (issue tracker)",
+    "trust_score": 100
+   },
+   "ranking": [
+    {
+     "rank": 1,
+     "id": "flop-labs-network",
+     "name": "flop-labs/network (issue tracker)",
+     "trust_score": 100,
+     "confidence": "high"
+    },
+    {
+     "rank": 2,
+     "id": "flop-docs",
+     "name": "FLOP docs (docs.flop.network / ask.flop.finance)",
+     "trust_score": 95.8,
+     "confidence": "high"
+    },
+    {
+     "rank": 3,
+     "id": "dizcorvus-airdrop-skill",
+     "name": "FLOP Airdrop Skill (dizcorvus)",
+     "trust_score": 94.4,
+     "confidence": "high"
+    },
+    {
+     "rank": 4,
+     "id": "awesome-technocore",
+     "name": "Awesome Technocore",
+     "trust_score": 57.4,
+     "confidence": "medium"
+    }
+   ]
+  },
+  {
+   "category": "Other",
+   "count": 4,
+   "ranked_count": 2,
+   "flagged_count": 2,
+   "top": {
+    "id": "nxrskyaa-airdrop-skill",
+    "name": "flop-airdrop-skill (nxrskyaa)",
+    "trust_score": 61.5
+   },
+   "ranking": [
+    {
+     "rank": 1,
+     "id": "nxrskyaa-airdrop-skill",
+     "name": "flop-airdrop-skill (nxrskyaa)",
+     "trust_score": 61.5,
+     "confidence": "medium"
+    },
+    {
+     "rank": 2,
+     "id": "gpaul26-flop-devnet",
+     "name": "Flop-Devnet (Gpaul26)",
+     "trust_score": 35.1,
+     "confidence": "medium"
+    }
+   ]
+  },
+  {
+   "category": "Chat assistants",
+   "count": 2,
+   "ranked_count": 2,
+   "flagged_count": 0,
+   "top": {
+    "id": "lumi-observatory",
+    "name": "LUMI Agentic Observatory",
+    "trust_score": 87.9
+   },
+   "ranking": [
+    {
+     "rank": 1,
+     "id": "lumi-observatory",
+     "name": "LUMI Agentic Observatory",
+     "trust_score": 87.9,
+     "confidence": "medium"
+    },
+    {
+     "rank": 2,
+     "id": "hermes-flop",
+     "name": "Hermes Desktop on FLOP (flop-public provider)",
+     "trust_score": 85.2,
+     "confidence": "medium"
+    }
+   ]
+  },
+  {
+   "category": "Trading & crypto data",
+   "count": 1,
+   "ranked_count": 1,
+   "flagged_count": 0,
+   "top": {
+    "id": "flop-labs-tclk",
+    "name": "tclk (Technocore Lock Protocol)",
+    "trust_score": 90.9
+   },
+   "ranking": [
+    {
+     "rank": 1,
+     "id": "flop-labs-tclk",
+     "name": "tclk (Technocore Lock Protocol)",
+     "trust_score": 90.9,
+     "confidence": "medium"
+    }
+   ]
+  },
+  {
+   "category": "Coding tools",
+   "count": 1,
+   "ranked_count": 1,
+   "flagged_count": 0,
+   "top": {
+    "id": "flop-labs-codescape",
+    "name": "codescape",
+    "trust_score": 86.4
+   },
+   "ranking": [
+    {
+     "rank": 1,
+     "id": "flop-labs-codescape",
+     "name": "codescape",
+     "trust_score": 86.4,
+     "confidence": "medium"
+    }
+   ]
+  }
+ ],
+ "apps": [
+  {
+   "id": "flop-labs-technocore-chat",
+   "name": "technocore-chat",
+   "category": "Agent network & identity",
+   "service_description": "Official zero-auth HTTP chat and notes service for AI agents (technocore.chat) with an MCP surface.",
+   "kind": "agent",
+   "official": true,
+   "scores": {
+    "reliability": 100,
+    "quality": 100,
+    "speed": 94,
+    "safety": 100
+   },
+   "measured_score": 99,
+   "community_score": 0,
+   "community_bayes_score": 0,
+   "community_weight_applied": 0,
+   "trust_score": 99,
+   "confidence": "high",
+   "metrics_covered": [
+    "reliability",
+    "quality",
+    "speed",
+    "safety"
+   ],
+   "metrics_applicable": [
+    "reliability",
+    "quality",
+    "speed",
+    "safety"
+   ],
+   "excluded_from_ranking": false,
+   "basis": {
+    "reliability": "URL uptime probe + repo freshness",
+    "quality": "usefulness heuristic (docs depth, network-specific, live product, license, stars); no inference endpoint to test",
+    "speed": "HTTP response time of live URL (single probe from US-East sandbox)",
+    "safety": "README/homepage scan: token-sale, secret requests, impersonation, Sybil-evasion, lookalike domains, wallet access",
+    "claims": "claims check 2026-11-10: README/homepage claims tested via live fetch + static repo check; quality +0"
+   },
+   "metrics": {
+    "http_up": "2/2",
+    "days_since_push": 4.7,
+    "http_ms_median": 580,
+    "safety_flags": [],
+    "safety_positives": [
+     "links official FLOP domains",
+     "official FLOP Labs property"
+    ],
+    "data_access": [
+     "read-only public data",
+     "runs installers / root on host"
+    ]
+   },
+   "evidence": {
+    "links": [
+     "https://github.com/flop-labs/technocore-chat",
+     "https://technocore.chat",
+     "https://technocore.chat/humans"
+    ],
+    "github": {
+     "stars": 167,
+     "pushed_at": "2026-11-05T14:14:59Z",
+     "license": "Apache-2.0",
+     "archived": false
+    },
+    "http": [
+     {
+      "url": "https://technocore.chat",
+      "status": 200,
+      "ms": 617
+     },
+     {
+      "url": "https://technocore.chat/humans",
+      "status": 200,
+      "ms": 580
+     }
+    ],
+    "npm": null
+   },
+   "claims": [
+    "Every operation, including writes, is one plain GET returning text/plain",
+    "The whole manual is one fetch at /llms.txt",
+    "did:key signed writes (say-signed) are verified server-side",
+    "MCP server exposes the same surface"
+   ],
+   "claims_verdict": "Verified",
+   "claims_note": "technocore.chat and /llms.txt return the text/plain manual, /r/lobby?limit=2 returns live messages (2026-11-10), and the repo has the mcp/ server and signing code; all 90 JS/Py files parse.",
+   "claims_evidence": [
+    "https://technocore.chat/llms.txt",
+    "https://technocore.chat/r/lobby?limit=2",
+    "repo: mcp/, 65 test files"
+   ],
+   "claims_penalty": 0,
+   "rank": 1,
+   "category_rank": 1
+  },
+  {
+   "id": "joxp-flop-agent",
+   "name": "flop-agent (JoXp)",
+   "category": "Agent network & identity",
+   "service_description": "Agent identity, presence and tclk/1 deal worker for technocore.chat.",
+   "kind": "agent",
+   "official": false,
+   "scores": {
+    "reliability": 100,
+    "quality": 90,
+    "speed": 100,
+    "safety": 100
+   },
+   "measured_score": 97.2,
+   "community_score": 0,
+   "community_bayes_score": 0,
+   "community_weight_applied": 0,
+   "trust_score": 97.2,
+   "confidence": "high",
+   "metrics_covered": [
+    "reliability",
+    "quality",
+    "speed",
+    "safety"
+   ],
+   "metrics_applicable": [
+    "reliability",
+    "quality",
+    "speed",
+    "safety"
+   ],
+   "excluded_from_ranking": false,
+   "basis": {
+    "reliability": "URL uptime probe + repo freshness",
+    "quality": "usefulness heuristic (docs depth, network-specific, live product, license, stars); no inference endpoint to test",
+    "speed": "HTTP response time of live URL (single probe from US-East sandbox)",
+    "safety": "README/homepage scan: token-sale, secret requests, impersonation, Sybil-evasion, lookalike domains, wallet access",
+    "claims": "claims check 2026-11-10: README/homepage claims tested via live fetch + static repo check; quality +0"
+   },
+   "metrics": {
+    "http_up": "1/1",
+    "days_since_push": 0.1,
+    "http_ms_median": 35,
+    "safety_flags": [],
+    "safety_positives": [
+     "links official FLOP domains"
+    ],
+    "data_access": [
+     "creates local key file (0600)",
+     "runs installers / root on host"
+    ]
+   },
+   "evidence": {
+    "links": [
+     "https://github.com/JoXp-ViBe/flop-agent",
+     "https://joxp-vibe.github.io/flop-agent/"
+    ],
+    "github": {
+     "stars": 0,
+     "pushed_at": "2026-11-10T04:39:12Z",
+     "license": "Apache-2.0",
+     "archived": false
+    },
+    "http": [
+     {
+      "url": "https://joxp-vibe.github.io/flop-agent/",
+      "status": 200,
+      "ms": 35
+     }
+    ],
+    "npm": null
+   },
+   "claims": [
+    "Board Observatory measures the live tclk-offers board and publishes docs/data.json",
+    "CLI commands selftest / status / publish / claim",
+    "Seed comes from the official technocore sign.py keygen; nothing read on technocore is executed"
+   ],
+   "claims_verdict": "Verified",
+   "claims_note": "data.json on the live site was measured 2026-11-10 07:39 (+03) over 9,453 tclk-offers lines; all four CLI commands exist in agent/; 33 code files parse.",
+   "claims_evidence": [
+    "https://joxp-vibe.github.io/flop-agent/data.json",
+    "repo: deals/observatory.mjs, agent/__main__.py"
+   ],
+   "claims_penalty": 0,
+   "rank": 2,
+   "category_rank": 2
+  },
+  {
+   "id": "zkasuran-flop-lab",
+   "name": "flop-lab suite",
+   "category": "Dashboards & explorers",
+   "service_description": "Open tools for watching the devnet from outside: miner scoreboard, conformance harness, settlement checks, with upstream findings.",
+   "kind": "dashboard",
+   "official": false,
+   "scores": {
+    "reliability": 100,
+    "quality": 90,
+    "speed": 96.2,
+    "safety": 100
+   },
+   "measured_score": 96.6,
+   "community_score": 0,
+   "community_bayes_score": 0,
+   "community_weight_applied": 0,
+   "trust_score": 96.6,
+   "confidence": "high",
+   "metrics_covered": [
+    "reliability",
+    "quality",
+    "speed",
+    "safety"
+   ],
+   "metrics_applicable": [
+    "reliability",
+    "quality",
+    "speed",
+    "safety"
+   ],
+   "excluded_from_ranking": false,
+   "basis": {
+    "reliability": "URL uptime probe + repo freshness",
+    "quality": "usefulness heuristic (docs depth, network-specific, live product, license, stars); no inference endpoint to test",
+    "speed": "HTTP response time of live URL (single probe from US-East sandbox)",
+    "safety": "README/homepage scan: token-sale, secret requests, impersonation, Sybil-evasion, lookalike domains, wallet access",
+    "claims": "claims check 2026-11-10: README/homepage claims tested via live fetch + static repo check; quality +0"
+   },
+   "metrics": {
+    "http_up": "1/1",
+    "days_since_push": 0.1,
+    "http_ms_median": 480,
+    "safety_flags": [],
+    "safety_positives": [
+     "links official FLOP domains",
+     "states unofficial / no token"
+    ],
+    "data_access": [
+     "read-only public data",
+     "handles a private key/seed (check where it is stored)"
+    ]
+   },
+   "evidence": {
+    "links": [
+     "https://github.com/zkasuran/flop-lab",
+     "https://flop.zkasuran.dev"
+    ],
+    "github": {
+     "stars": 0,
+     "pushed_at": "2026-11-10T03:37:32Z",
+     "license": "Apache-2.0",
+     "archived": false
+    },
+    "http": [
+     {
+      "url": "https://flop.zkasuran.dev",
+      "status": 200,
+      "ms": 480
+     }
+    ],
+    "npm": null
+   },
+   "claims": [
+    "Live suite and docs hub at flop.zkasuran.dev",
+    "~40 packages: recorder, explorer, models, sessions, finality, verifier, MCP and more",
+    "One `flop` dispatcher CLI (node packages/cli/dist/cli.js)"
+   ],
+   "claims_verdict": "Verified",
+   "claims_note": "Suite, /docs and /docs/findings all return 200; 42 packages are present; the CLI is built from source with the pnpm build step the README lists (dist/ is not committed, as documented).",
+   "claims_evidence": [
+    "https://flop.zkasuran.dev/docs",
+    "https://flop.zkasuran.dev/docs/findings",
+    "repo: packages/cli, packages/*"
+   ],
+   "claims_penalty": 0,
+   "rank": 3,
+   "category_rank": 1
+  },
+  {
+   "id": "reddragon-observatory",
+   "name": "RedDragon FLOP Community Observatory",
+   "category": "Research & analysis",
+   "service_description": "Community observatory tracking spec/yellowpaper drift and testnet readiness, plus DID/Technocore/TCLK tooling.",
+   "kind": "dashboard",
+   "official": false,
+   "scores": {
+    "reliability": 100,
+    "quality": 87,
+    "speed": 100,
+    "safety": 100
+   },
+   "measured_score": 96.4,
+   "community_score": 0,
+   "community_bayes_score": 0,
+   "community_weight_applied": 0,
+   "trust_score": 96.4,
+   "confidence": "high",
+   "metrics_covered": [
+    "reliability",
+    "quality",
+    "speed",
+    "safety"
+   ],
+   "metrics_applicable": [
+    "reliability",
+    "quality",
+    "speed",
+    "safety"
+   ],
+   "excluded_from_ranking": false,
+   "basis": {
+    "reliability": "URL uptime probe + repo freshness",
+    "quality": "usefulness heuristic (docs depth, network-specific, live product, license, stars); no inference endpoint to test",
+    "speed": "HTTP response time of live URL (single probe from US-East sandbox)",
+    "safety": "README/homepage scan: token-sale, secret requests, impersonation, Sybil-evasion, lookalike domains, wallet access",
+    "claims": "claims check 2026-11-10: README/homepage claims tested via live fetch + static repo check; quality +0"
+   },
+   "metrics": {
+    "http_up": "1/1",
+    "days_since_push": 2.6,
+    "http_ms_median": 55,
+    "safety_flags": [],
+    "safety_positives": [
+     "links official FLOP domains",
+     "states unofficial / no token"
+    ],
+    "data_access": [
+     "read-only public data",
+     "devnet gateway key",
+     "devnet faucet",
+     "handles a private key/seed (check where it is stored)"
+    ]
+   },
+   "evidence": {
+    "links": [
+     "https://github.com/maho0638/reddragon-technocore",
+     "https://reddragon-technocore.vercel.app/flop"
+    ],
+    "github": {
+     "stars": 1,
+     "pushed_at": "2026-11-07T16:49:43Z",
+     "license": null,
+     "archived": false
+    },
+    "http": [
+     {
+      "url": "https://reddragon-technocore.vercel.app/flop",
+      "status": 200,
+      "ms": 55
+     }
+    ],
+    "npm": null
+   },
+   "claims": [
+    "FLOP Observatory page tracking spec changes and source drift",
+    "Full Agent Lab site",
+    "Open repository with the tooling"
+   ],
+   "claims_verdict": "Verified",
+   "claims_note": "Both /flop and the Agent Lab root return 200 with the described content; 36 code files in the repo parse.",
+   "claims_evidence": [
+    "https://reddragon-technocore.vercel.app/flop",
+    "https://reddragon-technocore.vercel.app"
+   ],
+   "claims_penalty": 0,
+   "rank": 4,
+   "category_rank": 1
+  },
+  {
+   "id": "evidence-scout",
+   "name": "FLOP Evidence Scout",
+   "category": "Research & analysis",
+   "service_description": "Two autonomous research agents on technocore.chat with a public status page and JSON feed.",
+   "kind": "agent",
+   "official": false,
+   "scores": {
+    "reliability": 100,
+    "quality": 82.0,
+    "speed": 100,
+    "safety": 100,
+    "quality_before_claims": 87
+   },
+   "measured_score": 95.0,
+   "community_score": 0,
+   "community_bayes_score": 0,
+   "community_weight_applied": 0,
+   "trust_score": 95.0,
+   "confidence": "high",
+   "metrics_covered": [
+    "reliability",
+    "quality",
+    "speed",
+    "safety"
+   ],
+   "metrics_applicable": [
+    "reliability",
+    "quality",
+    "speed",
+    "safety"
+   ],
+   "excluded_from_ranking": false,
+   "basis": {
+    "reliability": "URL uptime probe + repo freshness",
+    "quality": "usefulness heuristic (docs depth, network-specific, live product, license, stars); no inference endpoint to test",
+    "speed": "HTTP response time of live URL (single probe from US-East sandbox)",
+    "safety": "README/homepage scan: token-sale, secret requests, impersonation, Sybil-evasion, lookalike domains, wallet access",
+    "claims": "claims check 2026-11-10: README/homepage claims tested via live fetch + static repo check; quality -5"
+   },
+   "metrics": {
+    "http_up": "2/2",
+    "days_since_push": 0.2,
+    "http_ms_median": 11,
+    "safety_flags": [],
+    "safety_positives": [
+     "links official FLOP domains",
+     "states unofficial / no token"
+    ],
+    "data_access": [
+     "devnet faucet",
+     "handles a private key/seed (check where it is stored)"
+    ]
+   },
+   "evidence": {
+    "links": [
+     "https://github.com/Mariukasfak/flop-evidence-scout",
+     "https://mariukasfak.github.io/flop-evidence-scout/status.html",
+     "https://mariukasfak.github.io/flop-evidence-scout/"
+    ],
+    "github": {
+     "stars": 1,
+     "pushed_at": "2026-11-10T01:33:15Z",
+     "license": null,
+     "archived": false
+    },
+    "http": [
+     {
+      "url": "https://mariukasfak.github.io/flop-evidence-scout/status.html",
+      "status": 200,
+      "ms": 38
+     },
+     {
+      "url": "https://mariukasfak.github.io/flop-evidence-scout/",
+      "status": 200,
+      "ms": 11
+     }
+    ],
+    "npm": null
+   },
+   "claims": [
+    "Two agents run continuously on technocore.chat",
+    "Publishes to rooms /r/d-flop-facts and /r/d-scout-telemetry",
+    "Every published figure comes from tools/measure-network.mjs",
+    "Live status page and field guide"
+   ],
+   "claims_verdict": "Partly",
+   "claims_note": "d-scout-telemetry has messages from 2026-11-10 and the status page, guide and measure tool exist, but the advertised d-flop-facts room is empty (0 messages).",
+   "claims_evidence": [
+    "https://technocore.chat/r/d-scout-telemetry?limit=2",
+    "https://technocore.chat/r/d-flop-facts?limit=2",
+    "https://mariukasfak.github.io/flop-evidence-scout/status.html"
+   ],
+   "claims_penalty": -5,
+   "rank": 5,
+   "category_rank": 2
+  },
+  {
+   "id": "omerbek-local-miner",
+   "name": "FLOP LOCAL MINER diagnostics",
+   "category": "Miner & validator tooling",
+   "service_description": "Local-first GPU diagnostics and readiness checks before running the official miner.",
+   "kind": "miner_script",
+   "official": false,
+   "scores": {
+    "reliability": 100,
+    "quality": 80,
+    "speed": 100,
+    "safety": 100
+   },
+   "measured_score": 94.4,
+   "community_score": 0,
+   "community_bayes_score": 0,
+   "community_weight_applied": 0,
+   "trust_score": 94.4,
+   "confidence": "high",
+   "metrics_covered": [
+    "reliability",
+    "quality",
+    "speed",
+    "safety"
+   ],
+   "metrics_applicable": [
+    "reliability",
+    "quality",
+    "speed",
+    "safety"
+   ],
+   "excluded_from_ranking": false,
+   "basis": {
+    "reliability": "URL uptime probe + repo freshness",
+    "quality": "usefulness heuristic (docs depth, network-specific, live product, license, stars); no inference endpoint to test",
+    "speed": "HTTP response time of live URL (single probe from US-East sandbox)",
+    "safety": "README/homepage scan: token-sale, secret requests, impersonation, Sybil-evasion, lookalike domains, wallet access",
+    "claims": "claims check 2026-11-10: README/homepage claims tested via live fetch + static repo check; quality +0"
+   },
+   "metrics": {
+    "http_up": "1/1",
+    "days_since_push": 1,
+    "http_ms_median": 35,
+    "safety_flags": [],
+    "safety_positives": [],
+    "data_access": [
+     "read-only public data",
+     "devnet gateway key",
+     "runs installers / root on host"
+    ]
+   },
+   "evidence": {
+    "links": [
+     "https://github.com/omerbek/flop-local-miner",
+     "https://omerbek.github.io/flop-local-miner/site/"
+    ],
+    "github": {
+     "stars": 0,
+     "pushed_at": "2026-11-09T07:41:19Z",
+     "license": "MIT",
+     "archived": false
+    },
+    "http": [
+     {
+      "url": "https://omerbek.github.io/flop-local-miner/site/",
+      "status": 200,
+      "ms": 35
+     }
+    ],
+    "npm": null
+   },
+   "claims": [
+    "GPU-first diagnostics scripts for a local Windows/WSL2 miner",
+    "Bilingual animated miner + validator guide site",
+    "Validator guide verifies the official package by SHA-256"
+   ],
+   "claims_verdict": "Verified",
+   "claims_note": "Site and validator page return 200; the docs check validator-cs-be91fe83 against a pinned SHA-256 and SHA256SUMS; all 12 scripts parse (GPU results themselves not reproducible here).",
+   "claims_evidence": [
+    "https://omerbek.github.io/flop-local-miner/site/validator.html",
+    "repo: docs/VALIDATOR-SETUP.en.md"
+   ],
+   "claims_penalty": 0,
+   "rank": 6,
+   "category_rank": 1
+  },
+  {
+   "id": "dizcorvus-airdrop-skill",
+   "name": "FLOP Airdrop Skill (dizcorvus)",
+   "category": "Guides & docs",
+   "service_description": "Community agent skill restating official airdrop/testnet rules for agents; links official pages.",
+   "kind": "agent",
+   "official": false,
+   "scores": {
+    "reliability": 85,
+    "quality": 100,
+    "speed": 100,
+    "safety": 95
+   },
+   "measured_score": 94.4,
+   "community_score": 0,
+   "community_bayes_score": 0,
+   "community_weight_applied": 0,
+   "trust_score": 94.4,
+   "confidence": "high",
+   "metrics_covered": [
+    "reliability",
+    "quality",
+    "speed",
+    "safety"
+   ],
+   "metrics_applicable": [
+    "reliability",
+    "quality",
+    "speed",
+    "safety"
+   ],
+   "excluded_from_ranking": false,
+   "basis": {
+    "reliability": "URL uptime probe + repo freshness",
+    "quality": "usefulness heuristic (docs depth, network-specific, live product, license, stars); no inference endpoint to test",
+    "speed": "HTTP response time of live URL (single probe from US-East sandbox)",
+    "safety": "README/homepage scan: token-sale, secret requests, impersonation, Sybil-evasion, lookalike domains, wallet access",
+    "claims": "claims check 2026-11-10: README/homepage claims tested via live fetch + static repo check; quality +0"
+   },
+   "metrics": {
+    "http_up": "1/1",
+    "days_since_push": 19.9,
+    "http_ms_median": 79,
+    "safety_flags": [
+     {
+      "severity": "low",
+      "code": "curl_pipe_sh",
+      "detail": "Install via curl | sh: review the script before running."
+     }
+    ],
+    "safety_positives": [
+     "links official FLOP domains"
+    ],
+    "data_access": [
+     "devnet faucet",
+     "runs installers / root on host"
+    ]
+   },
+   "evidence": {
+    "links": [
+     "https://github.com/dizcorvus/flop-airdrop-skill",
+     "https://flop.finance/"
+    ],
+    "github": {
+     "stars": 9,
+     "pushed_at": "2026-10-21T08:43:26Z",
+     "license": "MIT",
+     "archived": false
+    },
+    "http": [
+     {
+      "url": "https://flop.finance/",
+      "status": 200,
+      "ms": 79
+     }
+    ],
+    "npm": null
+   },
+   "claims": [
+    "Agent skill (SKILL.md + AGENTS.md) summarising what earns in the draft airdrop",
+    "Figures sourced from flop.finance/airdrop (draft)",
+    "One-line installer (curl | bash)"
+   ],
+   "claims_verdict": "Verified",
+   "claims_note": "SKILL.md, AGENTS.md and install.sh exist and parse, and flop.finance/airdrop is live; the curl | bash install is already counted in safety.",
+   "claims_evidence": [
+    "https://flop.finance/airdrop/",
+    "repo: SKILL.md, install.sh"
+   ],
+   "claims_penalty": 0,
+   "rank": 7,
+   "category_rank": 3
+  },
+  {
+   "id": "loferbart-broker-readiness",
+   "name": "FLOP Broker Readiness Lab",
+   "category": "Research & analysis",
+   "service_description": "Client-side broker economics simulator and research page.",
+   "kind": "tool",
+   "official": false,
+   "scores": {
+    "reliability": 85,
+    "quality": 90,
+    "speed": 100,
+    "safety": 100
+   },
+   "measured_score": 93.1,
+   "community_score": 0,
+   "community_bayes_score": 0,
+   "community_weight_applied": 0,
+   "trust_score": 93.1,
+   "confidence": "high",
+   "metrics_covered": [
+    "reliability",
+    "quality",
+    "speed",
+    "safety"
+   ],
+   "metrics_applicable": [
+    "reliability",
+    "quality",
+    "speed",
+    "safety"
+   ],
+   "excluded_from_ranking": false,
+   "basis": {
+    "reliability": "URL uptime probe + repo freshness",
+    "quality": "usefulness heuristic (docs depth, network-specific, live product, license, stars); no inference endpoint to test",
+    "speed": "HTTP response time of live URL (single probe from US-East sandbox)",
+    "safety": "README/homepage scan: token-sale, secret requests, impersonation, Sybil-evasion, lookalike domains, wallet access",
+    "claims": "claims check 2026-11-10: README/homepage claims tested via live fetch + static repo check; quality +0"
+   },
+   "metrics": {
+    "http_up": "1/1",
+    "days_since_push": 20.4,
+    "http_ms_median": 41,
+    "safety_flags": [],
+    "safety_positives": [
+     "links official FLOP domains"
+    ],
+    "data_access": [
+     "read-only public data",
+     "handles a private key/seed (check where it is stored)"
+    ]
+   },
+   "evidence": {
+    "links": [
+     "https://github.com/loferbart/flop-broker-readiness",
+     "https://loferbart.github.io/flop-broker-readiness/"
+    ],
+    "github": {
+     "stars": 0,
+     "pushed_at": "2026-10-20T20:51:31Z",
+     "license": "MIT",
+     "archived": false
+    },
+    "http": [
+     {
+      "url": "https://loferbart.github.io/flop-broker-readiness/",
+      "status": 200,
+      "ms": 41
+     }
+    ],
+    "npm": null
+   },
+   "claims": [
+    "Live client-side broker economics simulator",
+    "index.html runs offline and sends nothing to a server",
+    "Signed Technocore announcements archived in technocore-contributions.json"
+   ],
+   "claims_verdict": "Verified",
+   "claims_note": "GitHub Pages site returns 200; index.html and technocore-contributions.json are in the repo.",
+   "claims_evidence": [
+    "https://loferbart.github.io/flop-broker-readiness/"
+   ],
+   "claims_penalty": 0,
+   "rank": 8,
+   "category_rank": 3
+  },
+  {
+   "id": "flop-mcp",
+   "name": "FLOP hosted MCP (mcp.flop.network)",
+   "category": "Developer SDKs & APIs",
+   "service_description": "Official read-only MCP server: chain stats, settlements, model pricing, knowledge catalog and yellowpaper explainer tools for agents.",
+   "kind": "official_service",
+   "official": true,
+   "scores": {
+    "reliability": 100,
+    "quality": 70,
+    "speed": 100,
+    "safety": 100
+   },
+   "measured_score": 91.7,
+   "community_score": 0,
+   "community_bayes_score": 0,
+   "community_weight_applied": 0,
+   "trust_score": 91.7,
+   "confidence": "high",
+   "metrics_covered": [
+    "reliability",
+    "quality",
+    "speed",
+    "safety"
+   ],
+   "metrics_applicable": [
+    "reliability",
+    "quality",
+    "speed",
+    "safety"
+   ],
+   "excluded_from_ranking": false,
+   "basis": {
+    "reliability": "endpoint health",
+    "quality": "usefulness heuristic (docs depth, network-specific, live product, license, stars); no inference endpoint to test",
+    "speed": "HTTP response time of live URL (single probe from US-East sandbox)",
+    "safety": "README/homepage scan: token-sale, secret requests, impersonation, Sybil-evasion, lookalike domains, wallet access",
+    "claims": "claims check 2026-11-10: README/homepage claims tested via live fetch + static repo check; quality +0"
+   },
+   "metrics": {
+    "http_up": "2/2",
+    "http_ms_median": 206,
+    "safety_flags": [],
+    "safety_positives": [
+     "official FLOP Labs property"
+    ],
+    "data_access": []
+   },
+   "evidence": {
+    "links": [
+     "https://mcp.flop.network/health",
+     "https://flop.network/mcp-config.json"
+    ],
+    "github": null,
+    "http": [
+     {
+      "url": "https://mcp.flop.network/health",
+      "status": 200,
+      "ms": 571
+     },
+     {
+      "url": "https://flop.network/mcp-config.json",
+      "status": 200,
+      "ms": 206
+     }
+    ],
+    "npm": null
+   },
+   "claims": [
+    "Public hosted MCP endpoint is read-only",
+    "Streamable HTTP transport at mcp.flop.network/mcp",
+    "Tools for balance, HTLC status, trust root, settlements"
+   ],
+   "claims_verdict": "Verified",
+   "claims_note": "/health reports readOnly=true, transport streamable-http, all dependencies ok; a tools/list call returned flop_health, flop_get_balance, flop_check_htlc, flop_trust_root and more, all readOnlyHint.",
+   "claims_evidence": [
+    "https://mcp.flop.network/health",
+    "POST https://mcp.flop.network/mcp tools/list"
+   ],
+   "claims_penalty": 0,
+   "rank": 9,
+   "category_rank": 1
+  },
+  {
+   "id": "flop-faucet",
+   "name": "FLOP devnet faucet",
+   "category": "Developer SDKs & APIs",
+   "service_description": "Official devnet faucet: test FLOP grants (25 anonymous / 2 agent per day) and miner/validator stake sponsorship lanes.",
+   "kind": "official_service",
+   "official": true,
+   "scores": {
+    "reliability": 100,
+    "quality": 70,
+    "speed": 100,
+    "safety": 100
+   },
+   "measured_score": 91.7,
+   "community_score": 0,
+   "community_bayes_score": 0,
+   "community_weight_applied": 0,
+   "trust_score": 91.7,
+   "confidence": "high",
+   "metrics_covered": [
+    "reliability",
+    "quality",
+    "speed",
+    "safety"
+   ],
+   "metrics_applicable": [
+    "reliability",
+    "quality",
+    "speed",
+    "safety"
+   ],
+   "excluded_from_ranking": false,
+   "basis": {
+    "reliability": "endpoint health",
+    "quality": "usefulness heuristic (docs depth, network-specific, live product, license, stars); no inference endpoint to test",
+    "speed": "HTTP response time of live URL (single probe from US-East sandbox)",
+    "safety": "README/homepage scan: token-sale, secret requests, impersonation, Sybil-evasion, lookalike domains, wallet access",
+    "claims": "claims check 2026-11-10: README/homepage claims tested via live fetch + static repo check; quality +0"
+   },
+   "metrics": {
+    "http_up": "2/2",
+    "http_ms_median": 279,
+    "safety_flags": [],
+    "safety_positives": [
+     "official FLOP Labs property"
+    ],
+    "data_access": []
+   },
+   "evidence": {
+    "links": [
+     "https://faucet.flop.network/health",
+     "https://faucet.flop.network/limits"
+    ],
+    "github": null,
+    "http": [
+     {
+      "url": "https://faucet.flop.network/health",
+      "status": 200,
+      "ms": 850
+     },
+     {
+      "url": "https://faucet.flop.network/limits",
+      "status": 200,
+      "ms": 279
+     }
+    ],
+    "npm": null
+   },
+   "claims": [
+    "Devnet faucet with published grant limits",
+    "Anonymous and agent grant tiers with cooldowns",
+    "Health endpoint"
+   ],
+   "claims_verdict": "Verified",
+   "claims_note": "/limits shows status open, 25 FLOP anonymous / 2 FLOP agent grants and a 10M daily cap; /health answers but reports status 'degraded'.",
+   "claims_evidence": [
+    "https://faucet.flop.network/limits",
+    "https://faucet.flop.network/health"
+   ],
+   "claims_penalty": 0,
+   "rank": 10,
+   "category_rank": 2
+  },
+  {
+   "id": "flop-labs-sdk",
+   "name": "@flop-labs/sdk (npm)",
+   "category": "Developer SDKs & APIs",
+   "service_description": "Official TypeScript SDK: HTLC workflows, PoUI proofs, account management and runDirectSession for direct compute channels.",
+   "kind": "sdk",
+   "official": true,
+   "scores": {
+    "reliability": 100,
+    "quality": 70,
+    "speed": 100,
+    "safety": 100
+   },
+   "measured_score": 91.7,
+   "community_score": 0,
+   "community_bayes_score": 0,
+   "community_weight_applied": 0,
+   "trust_score": 91.7,
+   "confidence": "high",
+   "metrics_covered": [
+    "reliability",
+    "quality",
+    "speed",
+    "safety"
+   ],
+   "metrics_applicable": [
+    "reliability",
+    "quality",
+    "speed",
+    "safety"
+   ],
+   "excluded_from_ranking": false,
+   "basis": {
+    "reliability": "endpoint health",
+    "quality": "usefulness heuristic (docs depth, network-specific, live product, license, stars); no inference endpoint to test",
+    "speed": "HTTP response time of live URL (single probe from US-East sandbox)",
+    "safety": "README/homepage scan: token-sale, secret requests, impersonation, Sybil-evasion, lookalike domains, wallet access",
+    "claims": "claims check 2026-11-10: README/homepage claims tested via live fetch + static repo check; quality +0"
+   },
+   "metrics": {
+    "http_up": "1/1",
+    "http_ms_median": 95,
+    "safety_flags": [],
+    "safety_positives": [
+     "official FLOP Labs property"
+    ],
+    "data_access": []
+   },
+   "evidence": {
+    "links": [
+     "https://registry.npmjs.org/@flop-labs/sdk/latest"
+    ],
+    "github": null,
+    "http": [
+     {
+      "url": "https://registry.npmjs.org/@flop-labs/sdk/latest",
+      "status": 200,
+      "ms": 95
+     }
+    ],
+    "npm": {
+     "version": "0.5.2",
+     "description": "TypeScript SDK for the FLOP Network – HTLC workflows, PoUI proofs, and account management"
+    }
+   },
+   "claims": [
+    "TypeScript SDK for HTLC workflows, PoUI proofs and accounts",
+    "Published on npm as @flop-labs/sdk",
+    "Ships a flop-client-gen CLI"
+   ],
+   "claims_verdict": "Verified",
+   "claims_note": "npm registry lists v0.5.2 with that description, 681 files and the flop-client-gen bin.",
+   "claims_evidence": [
+    "https://registry.npmjs.org/@flop-labs/sdk/latest"
+   ],
+   "claims_penalty": 0,
+   "rank": 11,
+   "category_rank": 3
+  },
+  {
+   "id": "makabeez-devnet-board",
+   "name": "FLOP devnet board",
+   "category": "Dashboards & explorers",
+   "service_description": "Live board of the devnet miner economy: sponsored, registered, calibrated, gateway-quoted and paid miners, refreshed every minute from public sources.",
+   "kind": "dashboard",
+   "official": false,
+   "scores": {
+    "reliability": 80,
+    "quality": 90,
+    "speed": 100,
+    "safety": 100
+   },
+   "measured_score": 91.7,
+   "community_score": 0,
+   "community_bayes_score": 0,
+   "community_weight_applied": 0,
+   "trust_score": 91.7,
+   "confidence": "high",
+   "metrics_covered": [
+    "reliability",
+    "quality",
+    "speed",
+    "safety"
+   ],
+   "metrics_applicable": [
+    "reliability",
+    "quality",
+    "speed",
+    "safety"
+   ],
+   "excluded_from_ranking": false,
+   "basis": {
+    "reliability": "URL uptime probe + repo freshness",
+    "quality": "usefulness heuristic (docs depth, network-specific, live product, license, stars); no inference endpoint to test",
+    "speed": "HTTP response time of live URL (single probe from US-East sandbox)",
+    "safety": "README/homepage scan: token-sale, secret requests, impersonation, Sybil-evasion, lookalike domains, wallet access",
+    "claims": "claims check 2026-11-10: README/homepage claims tested via live fetch + static repo check; quality +0"
+   },
+   "metrics": {
+    "http_up": "1/2",
+    "days_since_push": 6.3,
+    "http_ms_median": 65,
+    "safety_flags": [],
+    "safety_positives": [
+     "states unofficial / no token"
+    ],
+    "data_access": [
+     "devnet faucet"
+    ]
+   },
+   "evidence": {
+    "links": [
+     "https://github.com/Makabeez/flop-devnet-board",
+     "https://flop-devnet-board.vercel.app",
+     "https://flop-devnet-board.vercel.app/api/snapshot"
+    ],
+    "github": {
+     "stars": 0,
+     "pushed_at": "2026-11-03T22:35:34Z",
+     "license": "MIT",
+     "archived": false
+    },
+    "http": [
+     {
+      "url": "https://flop-devnet-board.vercel.app",
+      "status": 200,
+      "ms": 65
+     },
+     {
+      "url": "https://flop-devnet-board.vercel.app/api/snapshot",
+      "status": 0,
+      "ms": 12001,
+      "error": "AbortError"
+     }
+    ],
+    "npm": null
+   },
+   "claims": [
+    "Live board of the devnet miner economy from chain, MCP, gateway and faucet",
+    "Public CORS-open JSON at /api/snapshot",
+    "Data refreshed about once a minute"
+   ],
+   "claims_verdict": "Verified",
+   "claims_note": "/api/snapshot returned 124 KB of JSON generated at request time with Access-Control-Allow-Origin: *, but a cold build took 38 s (a 20 s probe timed out).",
+   "claims_evidence": [
+    "https://flop-devnet-board.vercel.app/api/snapshot",
+    "https://flop-devnet-board.vercel.app"
+   ],
+   "claims_penalty": 0,
+   "rank": 12,
+   "category_rank": 2
+  },
+  {
+   "id": "flop-labs-tclk",
+   "name": "tclk (Technocore Lock Protocol)",
+   "category": "Trading & crypto data",
+   "service_description": "Official convention layer for HTLC/PTLC deals between agents that meet in a technocore.chat room.",
+   "kind": "sdk",
+   "official": true,
+   "scores": {
+    "reliability": 100,
+    "quality": 85,
+    "safety": 100
+   },
+   "measured_score": 90.9,
+   "community_score": 0,
+   "community_bayes_score": 0,
+   "community_weight_applied": 0,
+   "trust_score": 90.9,
+   "confidence": "medium",
+   "metrics_covered": [
+    "reliability",
+    "quality",
+    "safety"
+   ],
+   "metrics_applicable": [
+    "reliability",
+    "quality",
+    "speed",
+    "safety"
+   ],
+   "excluded_from_ranking": false,
+   "basis": {
+    "reliability": "repo freshness (no live URL)",
+    "quality": "usefulness heuristic (docs depth, network-specific, live product, license, stars); no inference endpoint to test",
+    "safety": "README/homepage scan: token-sale, secret requests, impersonation, Sybil-evasion, lookalike domains, wallet access",
+    "claims": "claims check 2026-11-10: README/homepage claims tested via live fetch + static repo check; quality +0"
+   },
+   "metrics": {
+    "days_since_push": 0.1,
+    "safety_flags": [],
+    "safety_positives": [
+     "links official FLOP domains",
+     "official FLOP Labs property"
+    ],
+    "data_access": []
+   },
+   "evidence": {
+    "links": [
+     "https://github.com/flop-labs/tclk"
+    ],
+    "github": {
+     "stars": 19,
+     "pushed_at": "2026-11-10T04:45:37Z",
+     "license": "Apache-2.0",
+     "archived": false
+    },
+    "http": [],
+    "npm": null
+   },
+   "claims": [
+    "tclk/1 HTLC/PTLC deal protocol over signed room messages",
+    "Packages: core (src/), native FLOP rail (flop/), MCP server (mcp/)",
+    "Runnable examples live-deal.mjs and audit-export.mjs"
+   ],
+   "claims_verdict": "Verified",
+   "claims_note": "All three packages and both examples are present with 25 test files; the JS examples parse (TypeScript not compiled here).",
+   "claims_evidence": [
+    "repo: src/, flop/, mcp/, examples/"
+   ],
+   "claims_penalty": 0,
+   "rank": 13,
+   "category_rank": 1
+  },
+  {
+   "id": "makabeez-pc-miner",
+   "name": "flop-pc-miner (Windows/WSL)",
+   "category": "Miner & validator tooling",
+   "service_description": "Runs a devnet miner on a Windows + NVIDIA PC in one WSL distro using official images, with start/stop shortcuts and a desktop widget.",
+   "kind": "miner_script",
+   "official": false,
+   "scores": {
+    "reliability": 100,
+    "quality": 85,
+    "safety": 100
+   },
+   "measured_score": 90.9,
+   "community_score": 0,
+   "community_bayes_score": 0,
+   "community_weight_applied": 0,
+   "trust_score": 90.9,
+   "confidence": "medium",
+   "metrics_covered": [
+    "reliability",
+    "quality",
+    "safety"
+   ],
+   "metrics_applicable": [
+    "reliability",
+    "quality",
+    "speed",
+    "safety"
+   ],
+   "excluded_from_ranking": false,
+   "basis": {
+    "reliability": "repo freshness (no live URL)",
+    "quality": "usefulness heuristic (docs depth, network-specific, live product, license, stars); no inference endpoint to test",
+    "safety": "README/homepage scan: token-sale, secret requests, impersonation, Sybil-evasion, lookalike domains, wallet access",
+    "claims": "claims check 2026-11-10: README/homepage claims tested via live fetch + static repo check; quality +0"
+   },
+   "metrics": {
+    "days_since_push": 1.6,
+    "safety_flags": [],
+    "safety_positives": [
+     "links official FLOP domains",
+     "states unofficial / no token"
+    ],
+    "data_access": [
+     "read-only public data",
+     "creates local key file (0600)",
+     "devnet faucet",
+     "runs installers / root on host"
+    ]
+   },
+   "evidence": {
+    "links": [
+     "https://github.com/Makabeez/flop-pc-miner"
+    ],
+    "github": {
+     "stars": 5,
+     "pushed_at": "2026-11-08T17:18:39Z",
+     "license": "MIT",
+     "archived": false
+    },
+    "http": [],
+    "npm": null
+   },
+   "claims": [
+    "Official images only, pulled by sha256 digest from flop.network/releases.json",
+    "One script installs, registers, starts and stops the miner in a dedicated WSL distro",
+    "Live local dashboard and widget (flop-dash.py) plus Windows shortcuts"
+   ],
+   "claims_verdict": "Verified",
+   "claims_note": "The script reads releases.json and enforces a ghcr.io/flop-labs …@sha256 pattern; its pinned CLI floor v0.1.290 digest matches GHCR's own digest; flop-dash.py and windows/ exist and parse.",
+   "claims_evidence": [
+    "https://flop.network/releases.json",
+    "ghcr.io/flop-labs/flop-core/cli:v0.1.290 -> sha256:24e32b03…",
+    "repo: flop-miner.sh L50, L251"
+   ],
+   "claims_penalty": 0,
+   "rank": 14,
+   "category_rank": 2
+  },
+  {
+   "id": "flop-explorer",
+   "name": "FLOP devnet explorer",
+   "category": "Dashboards & explorers",
+   "service_description": "Official block, account, miner and compute-channel explorer with a public JSON API (/api/health, /api/miners, /api/compute-channels, /api/models, /api/validators).",
+   "kind": "official_service",
+   "official": true,
+   "scores": {
+    "reliability": 100,
+    "quality": 70,
+    "speed": 100,
+    "safety": 95
+   },
+   "measured_score": 90.3,
+   "community_score": 0,
+   "community_bayes_score": 0,
+   "community_weight_applied": 0,
+   "trust_score": 90.3,
+   "confidence": "high",
+   "metrics_covered": [
+    "reliability",
+    "quality",
+    "speed",
+    "safety"
+   ],
+   "metrics_applicable": [
+    "reliability",
+    "quality",
+    "speed",
+    "safety"
+   ],
+   "excluded_from_ranking": false,
+   "basis": {
+    "reliability": "endpoint health",
+    "quality": "usefulness heuristic (docs depth, network-specific, live product, license, stars); no inference endpoint to test",
+    "speed": "HTTP response time of live URL (single probe from US-East sandbox)",
+    "safety": "README/homepage scan: token-sale, secret requests, impersonation, Sybil-evasion, lookalike domains, wallet access",
+    "claims": "claims check 2026-11-10: README/homepage claims tested via live fetch + static repo check; quality +0"
+   },
+   "metrics": {
+    "http_up": "2/2",
+    "http_ms_median": 229,
+    "safety_flags": [
+     {
+      "severity": "medium",
+      "code": "wallet_connect",
+      "detail": "Asks to connect a wallet."
+     }
+    ],
+    "safety_positives": [
+     "links official FLOP domains",
+     "official FLOP Labs property"
+    ],
+    "data_access": [
+     "read-only public data",
+     "creates local key file (0600)",
+     "devnet gateway key",
+     "devnet faucet",
+     "wallet connection"
+    ]
+   },
+   "evidence": {
+    "links": [
+     "https://explorer.devnet.flop.network/api/health",
+     "https://explorer.devnet.flop.network/connect"
+    ],
+    "github": null,
+    "http": [
+     {
+      "url": "https://explorer.devnet.flop.network/api/health",
+      "status": 200,
+      "ms": 320
+     },
+     {
+      "url": "https://explorer.devnet.flop.network/connect",
+      "status": 200,
+      "ms": 229
+     }
+    ],
+    "npm": null
+   },
+   "claims": [
+    "Indexes the devnet chain live",
+    "Compute-channel API used by the scorer",
+    "Connect page for wallets/agents"
+   ],
+   "claims_verdict": "Verified",
+   "claims_note": "/api/health shows phase live with a head lag of 1-4 blocks; /api/compute-channels and /connect return data. The /compute-channel/<id> links the scorer had stored 404; the working path is /channels/<id> (links corrected).",
+   "claims_evidence": [
+    "https://explorer.devnet.flop.network/api/health",
+    "https://explorer.devnet.flop.network/channels/0x76f5c5bf…"
+   ],
+   "claims_penalty": 0,
+   "rank": 15,
+   "category_rank": 3
+  },
+  {
+   "id": "syphiliis-flop-key",
+   "name": "FLOP key (browser did:key + devnet address)",
+   "category": "Agent network & identity",
+   "service_description": "Single-file browser generator for an Ed25519 did:key and matching FLOP devnet address, with signing and Technocore publishing.",
+   "kind": "tool",
+   "official": false,
+   "scores": {
+    "reliability": 85,
+    "quality": 84.1,
+    "speed": 90.6,
+    "safety": 100
+   },
+   "measured_score": 89.9,
+   "community_score": 0,
+   "community_bayes_score": 0,
+   "community_weight_applied": 0,
+   "trust_score": 89.9,
+   "confidence": "high",
+   "metrics_covered": [
+    "reliability",
+    "quality",
+    "speed",
+    "safety"
+   ],
+   "metrics_applicable": [
+    "reliability",
+    "quality",
+    "speed",
+    "safety"
+   ],
+   "excluded_from_ranking": false,
+   "basis": {
+    "reliability": "URL uptime probe + repo freshness",
+    "quality": "usefulness heuristic (docs depth, network-specific, live product, license, stars); no inference endpoint to test",
+    "speed": "HTTP response time of live URL (single probe from US-East sandbox)",
+    "safety": "README/homepage scan: token-sale, secret requests, impersonation, Sybil-evasion, lookalike domains, wallet access",
+    "claims": "claims check 2026-11-10: README/homepage claims tested via live fetch + static repo check; quality +0"
+   },
+   "metrics": {
+    "http_up": "1/1",
+    "days_since_push": 14.4,
+    "http_ms_median": 742,
+    "safety_flags": [],
+    "safety_positives": [
+     "links official FLOP domains",
+     "states unofficial / no token"
+    ],
+    "data_access": [
+     "devnet gateway key",
+     "devnet faucet"
+    ]
+   },
+   "evidence": {
+    "links": [
+     "https://github.com/Syphiliis/flop-key",
+     "https://breizhnode.com/flop"
+    ],
+    "github": {
+     "stars": 0,
+     "pushed_at": "2026-10-26T21:21:31Z",
+     "license": "Apache-2.0",
+     "archived": false
+    },
+    "http": [
+     {
+      "url": "https://breizhnode.com/flop",
+      "status": 200,
+      "ms": 742
+     }
+    ],
+    "npm": null
+   },
+   "claims": [
+    "One file, zero dependencies, about 200 lines",
+    "generate / fromSeed / signMessage / publish / enrollDevnet",
+    "Same flow in the browser at breizhnode.com/flop"
+   ],
+   "claims_verdict": "Verified",
+   "claims_note": "flop-key.js is 213 lines with no dependencies in package.json, exports all five functions, and the browser page returns 200.",
+   "claims_evidence": [
+    "https://breizhnode.com/flop",
+    "repo: flop-key.js"
+   ],
+   "claims_penalty": 0,
+   "rank": 16,
+   "category_rank": 3
+  },
+  {
+   "id": "oversight-flopstar",
+   "name": "Flopstar",
+   "category": "Research & analysis",
+   "service_description": "Python agent that buys FLOP inference and reports each turn to Oversight's Touchstone verification service (self-hosted, no public endpoint).",
+   "kind": "inference_app",
+   "official": false,
+   "scores": {
+    "reliability": 100,
+    "quality": 77,
+    "safety": 100
+   },
+   "measured_score": 88.5,
+   "community_score": 0,
+   "community_bayes_score": 0,
+   "community_weight_applied": 0,
+   "trust_score": 88.5,
+   "confidence": "medium",
+   "metrics_covered": [
+    "reliability",
+    "quality",
+    "safety"
+   ],
+   "metrics_applicable": [
+    "reliability",
+    "quality",
+    "speed",
+    "safety"
+   ],
+   "excluded_from_ranking": false,
+   "basis": {
+    "reliability": "repo freshness (no live URL)",
+    "quality": "usefulness heuristic (docs depth, network-specific, live product, license, stars); no inference endpoint to test",
+    "safety": "README/homepage scan: token-sale, secret requests, impersonation, Sybil-evasion, lookalike domains, wallet access",
+    "claims": "claims check 2026-11-10: README/homepage claims tested via live fetch + static repo check; quality +0"
+   },
+   "metrics": {
+    "days_since_push": 5.7,
+    "safety_flags": [],
+    "safety_positives": [
+     "links official FLOP domains"
+    ],
+    "data_access": [
+     "read-only public data",
+     "devnet gateway key",
+     "devnet faucet",
+     "handles a private key/seed (check where it is stored)",
+     "runs installers / root on host"
+    ]
+   },
+   "evidence": {
+    "links": [
+     "https://github.com/oversight-markets/flopstar"
+    ],
+    "github": {
+     "stars": 1,
+     "pushed_at": "2026-11-04T14:41:45Z",
+     "license": "Apache-2.0",
+     "archived": false
+    },
+    "http": [],
+    "npm": null
+   },
+   "claims": [
+    "Agent that buys FLOP inference and reports each turn to Touchstone",
+    "Every signing/spending command is a dry run until --post",
+    "Read-only commands: flop config / status / wallet address / touchstone status"
+   ],
+   "claims_verdict": "Verified",
+   "claims_note": "The commands and dry-run gating exist in src/ with 30 test files and all 54 code files parse; the spend path was not exercised.",
+   "claims_evidence": [
+    "repo: src/, tests/"
+   ],
+   "claims_penalty": 0,
+   "rank": 17,
+   "category_rank": 4
+  },
+  {
+   "id": "volkstiger-technocore-pulse",
+   "name": "technocore-pulse",
+   "category": "Dashboards & explorers",
+   "service_description": "Stdlib-only toolkit and single-page dashboard for technocore.chat room health and activity.",
+   "kind": "dashboard",
+   "official": false,
+   "scores": {
+    "reliability": 100,
+    "quality": 75,
+    "safety": 100
+   },
+   "measured_score": 87.9,
+   "community_score": 0,
+   "community_bayes_score": 0,
+   "community_weight_applied": 0,
+   "trust_score": 87.9,
+   "confidence": "medium",
+   "metrics_covered": [
+    "reliability",
+    "quality",
+    "safety"
+   ],
+   "metrics_applicable": [
+    "reliability",
+    "quality",
+    "speed",
+    "safety"
+   ],
+   "excluded_from_ranking": false,
+   "basis": {
+    "reliability": "repo freshness (no live URL)",
+    "quality": "usefulness heuristic (docs depth, network-specific, live product, license, stars); no inference endpoint to test",
+    "safety": "README/homepage scan: token-sale, secret requests, impersonation, Sybil-evasion, lookalike domains, wallet access",
+    "claims": "claims check 2026-11-10: README/homepage claims tested via live fetch + static repo check; quality +0"
+   },
+   "metrics": {
+    "days_since_push": 0.4,
+    "safety_flags": [],
+    "safety_positives": [
+     "links official FLOP domains"
+    ],
+    "data_access": [
+     "read-only public data",
+     "devnet faucet"
+    ]
+   },
+   "evidence": {
+    "links": [
+     "https://github.com/VolksTiger/technocore-pulse"
+    ],
+    "github": {
+     "stars": 0,
+     "pushed_at": "2026-11-09T20:41:52Z",
+     "license": "MIT",
+     "archived": false
+    },
+    "http": [],
+    "npm": null
+   },
+   "claims": [
+    "pulse.py, recorder.py, authenticity.py, reputation.py, measure_502.py tools",
+    "dashboard.html live console and toolkit.html DID inspector",
+    "Deterministic Ed25519 signing test vectors"
+   ],
+   "claims_verdict": "Verified",
+   "claims_note": "Every listed tool, both HTML pages and test-vectors.json are present; 56 code files parse.",
+   "claims_evidence": [
+    "repo: pulse.py, dashboard.html, test-vectors.json"
+   ],
+   "claims_penalty": 0,
+   "rank": 18,
+   "category_rank": 4
+  },
+  {
+   "id": "lumi-observatory",
+   "name": "LUMI Agentic Observatory",
+   "category": "Chat assistants",
+   "service_description": "Self-hosted, policy-gated agent runtime over Telegram + web UI with a FLOP worker that enrolls with api.flop.network and buys inference (no public endpoint).",
+   "kind": "inference_app",
+   "official": false,
+   "scores": {
+    "reliability": 100,
+    "quality": 75,
+    "safety": 100
+   },
+   "measured_score": 87.9,
+   "community_score": 0,
+   "community_bayes_score": 0,
+   "community_weight_applied": 0,
+   "trust_score": 87.9,
+   "confidence": "medium",
+   "metrics_covered": [
+    "reliability",
+    "quality",
+    "safety"
+   ],
+   "metrics_applicable": [
+    "reliability",
+    "quality",
+    "speed",
+    "safety"
+   ],
+   "excluded_from_ranking": false,
+   "basis": {
+    "reliability": "repo freshness (no live URL)",
+    "quality": "usefulness heuristic (docs depth, network-specific, live product, license, stars); no inference endpoint to test",
+    "safety": "README/homepage scan: token-sale, secret requests, impersonation, Sybil-evasion, lookalike domains, wallet access",
+    "claims": "claims check 2026-11-10: README/homepage claims tested via live fetch + static repo check; quality +0"
+   },
+   "metrics": {
+    "days_since_push": 6.8,
+    "safety_flags": [],
+    "safety_positives": [
+     "links official FLOP domains"
+    ],
+    "data_access": [
+     "read-only public data",
+     "creates local key file (0600)",
+     "devnet gateway key",
+     "devnet faucet",
+     "runs installers / root on host"
+    ]
+   },
+   "evidence": {
+    "links": [
+     "https://github.com/mstfalisrn/lumi-observatory"
+    ],
+    "github": {
+     "stars": 0,
+     "pushed_at": "2026-11-03T12:37:29Z",
+     "license": "MIT",
+     "archived": false
+    },
+    "http": [],
+    "npm": null
+   },
+   "claims": [
+    "./scripts/setup.sh generates an Ed25519 key, publishes a did:key note and builds the stack",
+    "Policy-gated tool execution (ALLOW / REQUIRE_APPROVAL / DENY)",
+    "Redis Streams queue with dead-letter handling and a tclk market agent"
+   ],
+   "claims_verdict": "Verified",
+   "claims_note": "setup.sh and quickstart.sh exist, and the policy, queue and agent code is present with 49 test files; all 139 JS/Py files parse (the self-hosted stack was not run).",
+   "claims_evidence": [
+    "repo: scripts/setup.sh, scripts/quickstart.sh"
+   ],
+   "claims_penalty": 0,
+   "rank": 19,
+   "category_rank": 1
+  },
+  {
+   "id": "syphiliis-gpu-miner",
+   "name": "flop-gpu-miner (one command)",
+   "category": "Miner & validator tooling",
+   "service_description": "One-command installer for worker + GPU backend on a rented Ubuntu GPU box, verifying the official pack fingerprint.",
+   "kind": "miner_script",
+   "official": false,
+   "scores": {
+    "reliability": 100,
+    "quality": 75,
+    "safety": 100
+   },
+   "measured_score": 87.9,
+   "community_score": 0,
+   "community_bayes_score": 0,
+   "community_weight_applied": 0,
+   "trust_score": 87.9,
+   "confidence": "medium",
+   "metrics_covered": [
+    "reliability",
+    "quality",
+    "safety"
+   ],
+   "metrics_applicable": [
+    "reliability",
+    "quality",
+    "speed",
+    "safety"
+   ],
+   "excluded_from_ranking": false,
+   "basis": {
+    "reliability": "repo freshness (no live URL)",
+    "quality": "usefulness heuristic (docs depth, network-specific, live product, license, stars); no inference endpoint to test",
+    "safety": "README/homepage scan: token-sale, secret requests, impersonation, Sybil-evasion, lookalike domains, wallet access",
+    "claims": "claims check 2026-11-10: README/homepage claims tested via live fetch + static repo check; quality +0"
+   },
+   "metrics": {
+    "days_since_push": 1.8,
+    "safety_flags": [],
+    "safety_positives": [
+     "links official FLOP domains",
+     "states unofficial / no token"
+    ],
+    "data_access": [
+     "creates local key file (0600)",
+     "devnet faucet",
+     "runs installers / root on host"
+    ]
+   },
+   "evidence": {
+    "links": [
+     "https://github.com/Syphiliis/flop-gpu-miner"
+    ],
+    "github": {
+     "stars": 0,
+     "pushed_at": "2026-11-08T12:00:51Z",
+     "license": "MIT",
+     "archived": false
+    },
+    "http": [],
+    "npm": null
+   },
+   "claims": [
+    "One command sets up Docker, GPU access, the official miner pack, account, model and HTTPS",
+    "Official pack checked by its SHA-256 fingerprint",
+    "Images pinned by version and digest"
+   ],
+   "claims_verdict": "Verified",
+   "claims_note": "The installer parses, and its pinned pack fingerprint 35f222f7…b2b514b1 matches the one published in flop.network's miner SKILL.md; images are pinned …@sha256. The installer says itself that it has not yet run on a real GPU.",
+   "claims_evidence": [
+    "https://flop.network/skills/flop-miner-devnet/SKILL.md",
+    "repo: flop-miner L16-24, L494"
+   ],
+   "claims_penalty": 0,
+   "rank": 20,
+   "category_rank": 4
+  },
+  {
+   "id": "flop-labs-codescape",
+   "name": "codescape",
+   "category": "Coding tools",
+   "service_description": "Flop Labs' 3D fly-through map of a Git repository's source, built on Makepad (not FLOP-network specific).",
+   "kind": "tool",
+   "official": true,
+   "scores": {
+    "reliability": 100,
+    "quality": 70,
+    "safety": 100
+   },
+   "measured_score": 86.4,
+   "community_score": 0,
+   "community_bayes_score": 0,
+   "community_weight_applied": 0,
+   "trust_score": 86.4,
+   "confidence": "medium",
+   "metrics_covered": [
+    "reliability",
+    "quality",
+    "safety"
+   ],
+   "metrics_applicable": [
+    "reliability",
+    "quality",
+    "speed",
+    "safety"
+   ],
+   "excluded_from_ranking": false,
+   "basis": {
+    "reliability": "repo freshness (no live URL)",
+    "quality": "usefulness heuristic (docs depth, network-specific, live product, license, stars); no inference endpoint to test",
+    "safety": "README/homepage scan: token-sale, secret requests, impersonation, Sybil-evasion, lookalike domains, wallet access",
+    "claims": "claims check 2026-11-10: README/homepage claims tested via live fetch + static repo check; quality +0"
+   },
+   "metrics": {
+    "days_since_push": 4.7,
+    "safety_flags": [],
+    "safety_positives": [
+     "official FLOP Labs property"
+    ],
+    "data_access": [
+     "runs installers / root on host"
+    ]
+   },
+   "evidence": {
+    "links": [
+     "https://github.com/flop-labs/codescape"
+    ],
+    "github": {
+     "stars": 2,
+     "pushed_at": "2026-11-05T13:47:41Z",
+     "license": null,
+     "archived": false
+    },
+    "http": [],
+    "npm": null
+   },
+   "claims": [
+    "3D fly-through map of a Git repo built on Makepad",
+    "codescape binary plus a bench binary",
+    "Tour mode (--tour --loop)"
+   ],
+   "claims_verdict": "Verified",
+   "claims_note": "Cargo.toml declares the codescape bin and src/bin/bench.rs exists, along with tour.rs; not compiled here.",
+   "claims_evidence": [
+    "repo: Cargo.toml, src/main.rs, src/bin/bench.rs, src/tour.rs"
+   ],
+   "claims_penalty": 0,
+   "rank": 21,
+   "category_rank": 1
+  },
+  {
+   "id": "makabeez-devnet-starter",
+   "name": "flop-devnet-starter",
+   "category": "Developer SDKs & APIs",
+   "service_description": "One bash script from zero to a settled inference call using the official CLI, gateway and hosted MCP.",
+   "kind": "tool",
+   "official": false,
+   "scores": {
+    "reliability": 100,
+    "quality": 68.8,
+    "safety": 100
+   },
+   "measured_score": 86,
+   "community_score": 0,
+   "community_bayes_score": 0,
+   "community_weight_applied": 0,
+   "trust_score": 86,
+   "confidence": "medium",
+   "metrics_covered": [
+    "reliability",
+    "quality",
+    "safety"
+   ],
+   "metrics_applicable": [
+    "reliability",
+    "quality",
+    "speed",
+    "safety"
+   ],
+   "excluded_from_ranking": false,
+   "basis": {
+    "reliability": "repo freshness (no live URL)",
+    "quality": "usefulness heuristic (docs depth, network-specific, live product, license, stars); no inference endpoint to test",
+    "safety": "README/homepage scan: token-sale, secret requests, impersonation, Sybil-evasion, lookalike domains, wallet access",
+    "claims": "claims check 2026-11-10: README/homepage claims tested via live fetch + static repo check; quality +0"
+   },
+   "metrics": {
+    "days_since_push": 6.4,
+    "safety_flags": [],
+    "safety_positives": [
+     "links official FLOP domains"
+    ],
+    "data_access": [
+     "creates local key file (0600)",
+     "devnet gateway key",
+     "devnet faucet"
+    ]
+   },
+   "evidence": {
+    "links": [
+     "https://github.com/Makabeez/flop-devnet-starter"
+    ],
+    "github": {
+     "stars": 0,
+     "pushed_at": "2026-11-03T20:17:00Z",
+     "license": "MIT",
+     "archived": false
+    },
+    "http": [],
+    "npm": null
+   },
+   "claims": [
+    "One bash script from nothing to an inference call using only the official @flop-labs CLI",
+    "Subcommands init / fund / credential / ask / status / direct / mcp",
+    "Keystore kept outside the repo"
+   ],
+   "claims_verdict": "Verified",
+   "claims_note": "flop-devnet.sh parses with bash -n and implements all seven subcommands.",
+   "claims_evidence": [
+    "repo: flop-devnet.sh"
+   ],
+   "claims_penalty": 0,
+   "rank": 22,
+   "category_rank": 4
+  },
+  {
+   "id": "hermes-flop",
+   "name": "Hermes Desktop on FLOP (flop-public provider)",
+   "category": "Chat assistants",
+   "service_description": "Official desktop agent/chat client launcher (Hermes 0.4.5) with a native FLOP model provider; sends its inference through the FLOP gateway.",
+   "kind": "inference_app",
+   "official": true,
+   "scores": {
+    "reliability": 78.1,
+    "quality": 80.8,
+    "speed": 100,
+    "safety": 95
+   },
+   "measured_score": 85.2,
+   "community_score": 0,
+   "community_bayes_score": 0,
+   "community_weight_applied": 0,
+   "trust_score": 85.2,
+   "confidence": "medium",
+   "metrics_covered": [
+    "reliability",
+    "quality",
+    "speed",
+    "safety"
+   ],
+   "metrics_applicable": [
+    "reliability",
+    "quality",
+    "speed",
+    "cost",
+    "safety"
+   ],
+   "excluded_from_ranking": false,
+   "basis": {
+    "reliability": "explorer funded-channel settle rate + endpoint health",
+    "quality": "usefulness heuristic (docs depth, network-specific, live product, license, stars); no inference endpoint to test",
+    "speed": "HTTP response time of live URL (single probe from US-East sandbox)",
+    "safety": "README/homepage scan: token-sale, secret requests, impersonation, Sybil-evasion, lookalike domains, wallet access",
+    "claims": "claims check 2026-11-10: README/homepage claims tested via live fetch + static repo check; quality +0"
+   },
+   "metrics": {
+    "http_up": "2/2",
+    "onchain": {
+     "agent": "5GsXb3TmNGixuEsbtixqHnqWr9UQJ2M8bkqBQWteNekgF98S",
+     "total_channels_indexed": 17450,
+     "sampled_recent": 500,
+     "funded": {
+      "settled": 96,
+      "timedout": 55,
+      "open": 13
+     },
+     "probes_1wei": {
+      "settled": 0,
+      "timedout": 101,
+      "open": 235
+     },
+     "funded_settle_rate": 0.636,
+     "models": {
+      "Qwen/Qwen2.5-0.5B-Instruct (0x1a52c1ab…)": 500
+     },
+     "miner_paid_flop_sampled": 28.9129
+    },
+    "http_ms_median": 203,
+    "safety_flags": [
+     {
+      "severity": "medium",
+      "code": "wallet_connect",
+      "detail": "Asks to connect a wallet."
+     },
+     {
+      "severity": "low",
+      "code": "curl_pipe_sh",
+      "detail": "Install via curl | sh: review the script before running."
+     }
+    ],
+    "safety_positives": [
+     "links official FLOP domains",
+     "official FLOP Labs property"
+    ],
+    "data_access": [
+     "devnet gateway key",
+     "wallet connection",
+     "runs installers / root on host"
+    ]
+   },
+   "evidence": {
+    "links": [
+     "https://flop.network/agent/hermes",
+     "https://flop.network/skills/flop-hermes-devnet/SKILL.md",
+     "https://explorer.devnet.flop.network/api/compute-channels?agent=5GsXb3TmNGixuEsbtixqHnqWr9UQJ2M8bkqBQWteNekgF98S",
+     "https://explorer.devnet.flop.network/channels/0x76f5c5bfa63ec50a809d9f3e3d31d8b1ae3b41e8a5f856ecc2cc6e5c624915f7",
+     "https://explorer.devnet.flop.network/channels/0xf5ecb13eadac5dc1e5b02993a98ca8b74a9d25a8e6602ec94ae82172e4e6360e",
+     "https://explorer.devnet.flop.network/channels/0x221ef08dd5a0a45af4eaeacc9dd9f3f1d4ee0bdd5165e03d24bbed549af734b8"
+    ],
+    "github": null,
+    "http": [
+     {
+      "url": "https://flop.network/agent/hermes",
+      "status": 200,
+      "ms": 631
+     },
+     {
+      "url": "https://flop.network/skills/flop-hermes-devnet/SKILL.md",
+      "status": 200,
+      "ms": 203
+     }
+    ],
+    "npm": null
+   },
+   "claims": [
+    "Native Hermes provider on FLOP devnet, installable from a skill",
+    "Settles through the gateway agent's compute channels"
+   ],
+   "claims_verdict": "Verified",
+   "claims_note": "The flop-hermes-devnet SKILL.md and the agent page are live, and the gateway agent's compute channels list on the explorer API.",
+   "claims_evidence": [
+    "https://flop.network/skills/flop-hermes-devnet/SKILL.md",
+    "https://explorer.devnet.flop.network/api/compute-channels?agent=5GsXb3…F98S"
+   ],
+   "claims_penalty": 0,
+   "rank": 23,
+   "category_rank": 2
+  },
+  {
+   "id": "kriptolia-miner-tool",
+   "name": "flop-miner-tool",
+   "category": "Miner & validator tooling",
+   "service_description": "Single-file Turkish/English tool to install, migrate and watchdog a devnet GPU miner in 3 commands.",
+   "kind": "miner_script",
+   "official": false,
+   "scores": {
+    "reliability": 100,
+    "quality": 70,
+    "safety": 95
+   },
+   "measured_score": 84.8,
+   "community_score": 0,
+   "community_bayes_score": 0,
+   "community_weight_applied": 0,
+   "trust_score": 84.8,
+   "confidence": "medium",
+   "metrics_covered": [
+    "reliability",
+    "quality",
+    "safety"
+   ],
+   "metrics_applicable": [
+    "reliability",
+    "quality",
+    "speed",
+    "safety"
+   ],
+   "excluded_from_ranking": false,
+   "basis": {
+    "reliability": "repo freshness (no live URL)",
+    "quality": "usefulness heuristic (docs depth, network-specific, live product, license, stars); no inference endpoint to test",
+    "safety": "README/homepage scan: token-sale, secret requests, impersonation, Sybil-evasion, lookalike domains, wallet access",
+    "claims": "claims check 2026-11-10: README/homepage claims tested via live fetch + static repo check; quality +0"
+   },
+   "metrics": {
+    "days_since_push": 2.5,
+    "safety_flags": [
+     {
+      "severity": "low",
+      "code": "curl_pipe_sh",
+      "detail": "Install via curl | sh: review the script before running."
+     }
+    ],
+    "safety_positives": [
+     "links official FLOP domains"
+    ],
+    "data_access": [
+     "handles a private key/seed (check where it is stored)",
+     "runs installers / root on host"
+    ]
+   },
+   "evidence": {
+    "links": [
+     "https://github.com/kriptolia/flop-miner-tool"
+    ],
+    "github": {
+     "stars": 0,
+     "pushed_at": "2026-11-07T18:22:19Z",
+     "license": null,
+     "archived": false
+    },
+    "http": [],
+    "npm": null
+   },
+   "claims": [
+    "Single-file miner tool: check / install / restore / watch / status",
+    "Three commands after login instead of ~43 manual ones",
+    "Restore moves a miner to a new machine with the same 24 words"
+   ],
+   "claims_verdict": "Untestable",
+   "claims_note": "All modes exist and the script parses, but the result needs a GPU host and a miner key. It builds on UfukNode's pinned setup and downloads cloudflared 'latest' without a checksum (it makes no verification claim).",
+   "claims_evidence": [
+    "repo: flop-miner.sh"
+   ],
+   "claims_penalty": 0,
+   "rank": 24,
+   "category_rank": 9
+  },
+  {
+   "id": "alpertungax1-toolkit",
+   "name": "flop-network-toolkit",
+   "category": "Developer SDKs & APIs",
+   "service_description": "All-in-one automation CLI for Flop Network devnet/testnet (accounts, faucet, chain queries).",
+   "kind": "tool",
+   "official": false,
+   "scores": {
+    "reliability": 100,
+    "quality": 63.2,
+    "safety": 100,
+    "quality_before_claims": 68.2
+   },
+   "measured_score": 84.3,
+   "community_score": 0,
+   "community_bayes_score": 0,
+   "community_weight_applied": 0,
+   "trust_score": 84.3,
+   "confidence": "medium",
+   "metrics_covered": [
+    "reliability",
+    "quality",
+    "safety"
+   ],
+   "metrics_applicable": [
+    "reliability",
+    "quality",
+    "speed",
+    "safety"
+   ],
+   "excluded_from_ranking": false,
+   "basis": {
+    "reliability": "repo freshness (no live URL)",
+    "quality": "usefulness heuristic (docs depth, network-specific, live product, license, stars); no inference endpoint to test",
+    "safety": "README/homepage scan: token-sale, secret requests, impersonation, Sybil-evasion, lookalike domains, wallet access",
+    "claims": "claims check 2026-11-10: README/homepage claims tested via live fetch + static repo check; quality -5"
+   },
+   "metrics": {
+    "days_since_push": 5.6,
+    "safety_flags": [],
+    "safety_positives": [
+     "links official FLOP domains"
+    ],
+    "data_access": [
+     "devnet faucet",
+     "handles a private key/seed (check where it is stored)"
+    ]
+   },
+   "evidence": {
+    "links": [
+     "https://github.com/alpertungax1/flop-network-toolkit"
+    ],
+    "github": {
+     "stars": 0,
+     "pushed_at": "2026-11-04T16:25:16Z",
+     "license": "MIT",
+     "archived": false
+    },
+    "http": [],
+    "npm": null
+   },
+   "claims": [
+    "flop-kit CLI: RPC health, models, faucet quick",
+    "Encrypted Polkadot keystore generation",
+    "'Verified Human' SIWE faucet tier granting 500-2,000 FLOP, run from GitHub Actions with an EVM_PRIVATE_KEY secret"
+   ],
+   "claims_verdict": "Partly",
+   "claims_note": "The CLI and keystore code exist, but the official faucet's /limits lists only 25 FLOP anonymous and 2 FLOP agent grants, with no SIWE 'Verified Human' tier. The README asks users to store an EVM private key as a repo secret to claim it.",
+   "claims_evidence": [
+    "https://faucet.flop.network/limits",
+    "repo: src/faucet.ts, .github/workflows/manual-faucet.yml L69-79"
+   ],
+   "claims_penalty": -5,
+   "claims_risky": true,
+   "rank": 25,
+   "category_rank": 5
+  },
+  {
+   "id": "danenright-agent-runner",
+   "name": "FLOP agent runner",
+   "category": "Developer SDKs & APIs",
+   "service_description": "Turns a Technocore did:key into a FLOP agent: faucet draw, gateway enrollment, capped inference spend and on-chain settlement checks (self-hosted, no public endpoint).",
+   "kind": "inference_app",
+   "official": false,
+   "scores": {
+    "reliability": 75,
+    "quality": 75,
+    "safety": 100
+   },
+   "measured_score": 80.3,
+   "community_score": 0,
+   "community_bayes_score": 0,
+   "community_weight_applied": 0,
+   "trust_score": 80.3,
+   "confidence": "medium",
+   "metrics_covered": [
+    "reliability",
+    "quality",
+    "safety"
+   ],
+   "metrics_applicable": [
+    "reliability",
+    "quality",
+    "speed",
+    "safety"
+   ],
+   "excluded_from_ranking": false,
+   "basis": {
+    "reliability": "repo freshness (no live URL)",
+    "quality": "usefulness heuristic (docs depth, network-specific, live product, license, stars); no inference endpoint to test",
+    "safety": "README/homepage scan: token-sale, secret requests, impersonation, Sybil-evasion, lookalike domains, wallet access",
+    "claims": "claims check 2026-11-10: README/homepage claims tested via live fetch + static repo check; quality +0"
+   },
+   "metrics": {
+    "days_since_push": 14.2,
+    "safety_flags": [],
+    "safety_positives": [
+     "states unofficial / no token"
+    ],
+    "data_access": [
+     "devnet gateway key",
+     "devnet faucet",
+     "runs installers / root on host"
+    ]
+   },
+   "evidence": {
+    "links": [
+     "https://github.com/danenright/flop-agent-runner"
+    ],
+    "github": {
+     "stars": 0,
+     "pushed_at": "2026-10-27T02:27:13Z",
+     "license": "Apache-2.0",
+     "archived": false
+    },
+    "http": [],
+    "npm": null
+   },
+   "claims": [
+    "Draws the faucet, enrolls with the gateway by signing a checked challenge",
+    "Spends on inference with per-request and per-cycle caps and confirms settlement",
+    "credit <did|address> checks settled spend with no key needed"
+   ],
+   "claims_verdict": "Verified",
+   "claims_note": "flop_agent.py implements credit, address and the cycle commands against the live explorer API, and all code parses; the spend cycle was not run.",
+   "claims_evidence": [
+    "repo: flop_agent.py"
+   ],
+   "claims_penalty": 0,
+   "rank": 26,
+   "category_rank": 6
+  },
+  {
+   "id": "flop-gateway-api",
+   "name": "FLOP gateway API (api.flop.network/v1)",
+   "category": "Developer SDKs & APIs",
+   "service_description": "Official OpenAI-compatible inference gateway for the FLOP devnet; routes chat completions to calibrated miners and settles each request in an on-chain compute channel.",
+   "kind": "official_service",
+   "official": true,
+   "scores": {
+    "reliability": 58.1,
+    "quality": 70,
+    "speed": 100,
+    "safety": 100
+   },
+   "measured_score": 78.5,
+   "community_score": 0,
+   "community_bayes_score": 0,
+   "community_weight_applied": 0,
+   "trust_score": 78.5,
+   "confidence": "medium",
+   "metrics_covered": [
+    "reliability",
+    "quality",
+    "speed",
+    "safety"
+   ],
+   "metrics_applicable": [
+    "reliability",
+    "quality",
+    "speed",
+    "cost",
+    "safety"
+   ],
+   "excluded_from_ranking": false,
+   "basis": {
+    "reliability": "explorer funded-channel settle rate + endpoint health",
+    "quality": "usefulness heuristic (docs depth, network-specific, live product, license, stars); no inference endpoint to test",
+    "speed": "HTTP response time of live URL (single probe from US-East sandbox)",
+    "safety": "README/homepage scan: token-sale, secret requests, impersonation, Sybil-evasion, lookalike domains, wallet access",
+    "claims": "claims check 2026-11-10: README/homepage claims tested via live fetch + static repo check; quality +0"
+   },
+   "metrics": {
+    "http_up": "1/2",
+    "onchain": {
+     "agent": "5GsXb3TmNGixuEsbtixqHnqWr9UQJ2M8bkqBQWteNekgF98S",
+     "total_channels_indexed": 17450,
+     "sampled_recent": 500,
+     "funded": {
+      "settled": 96,
+      "timedout": 55,
+      "open": 13
+     },
+     "probes_1wei": {
+      "settled": 0,
+      "timedout": 101,
+      "open": 235
+     },
+     "funded_settle_rate": 0.636,
+     "models": {
+      "Qwen/Qwen2.5-0.5B-Instruct (0x1a52c1ab…)": 500
+     },
+     "miner_paid_flop_sampled": 28.9129
+    },
+    "http_ms_median": 241,
+    "safety_flags": [],
+    "safety_positives": [
+     "official FLOP Labs property"
+    ],
+    "data_access": []
+   },
+   "evidence": {
+    "links": [
+     "https://api.flop.network/health",
+     "https://api.flop.network/v1/models",
+     "https://explorer.devnet.flop.network/api/compute-channels?agent=5GsXb3TmNGixuEsbtixqHnqWr9UQJ2M8bkqBQWteNekgF98S",
+     "https://explorer.devnet.flop.network/channels/0x76f5c5bfa63ec50a809d9f3e3d31d8b1ae3b41e8a5f856ecc2cc6e5c624915f7",
+     "https://explorer.devnet.flop.network/channels/0xf5ecb13eadac5dc1e5b02993a98ca8b74a9d25a8e6602ec94ae82172e4e6360e",
+     "https://explorer.devnet.flop.network/channels/0x221ef08dd5a0a45af4eaeacc9dd9f3f1d4ee0bdd5165e03d24bbed549af734b8"
+    ],
+    "github": null,
+    "http": [
+     {
+      "url": "https://api.flop.network/health",
+      "status": 503,
+      "ms": 2229
+     },
+     {
+      "url": "https://api.flop.network/v1/models",
+      "status": 200,
+      "ms": 241
+     }
+    ],
+    "npm": null
+   },
+   "claims": [
+    "OpenAI-style inference gateway at api.flop.network/v1",
+    "Model list with on-chain price sources",
+    "Health endpoint"
+   ],
+   "claims_verdict": "Verified",
+   "claims_note": "/health reports ok on devnet (image 0.1.305), and /v1/models lists qwen/qwen2.5-0.5b-instruct.",
+   "claims_evidence": [
+    "https://api.flop.network/health",
+    "https://api.flop.network/v1/models"
+   ],
+   "claims_penalty": 0,
+   "rank": 27,
+   "category_rank": 7
+  },
+  {
+   "id": "villenave-agent-kit",
+   "name": "flop-agent-kit (eligibility)",
+   "category": "Developer SDKs & APIs",
+   "service_description": "Dependency-free agent checklist tools: verify official endpoints, keep a settled-session ledger, pace faucet use, avoid self-dealing.",
+   "kind": "tool",
+   "official": false,
+   "scores": {
+    "reliability": 75,
+    "quality": 62.8,
+    "safety": 100
+   },
+   "measured_score": 76.6,
+   "community_score": 0,
+   "community_bayes_score": 0,
+   "community_weight_applied": 0,
+   "trust_score": 76.6,
+   "confidence": "medium",
+   "metrics_covered": [
+    "reliability",
+    "quality",
+    "safety"
+   ],
+   "metrics_applicable": [
+    "reliability",
+    "quality",
+    "speed",
+    "safety"
+   ],
+   "excluded_from_ranking": false,
+   "basis": {
+    "reliability": "repo freshness (no live URL)",
+    "quality": "usefulness heuristic (docs depth, network-specific, live product, license, stars); no inference endpoint to test",
+    "safety": "README/homepage scan: token-sale, secret requests, impersonation, Sybil-evasion, lookalike domains, wallet access",
+    "claims": "claims check 2026-11-10: README/homepage claims tested via live fetch + static repo check; quality +0"
+   },
+   "metrics": {
+    "days_since_push": 25.9,
+    "safety_flags": [],
+    "safety_positives": [
+     "links official FLOP domains",
+     "states unofficial / no token"
+    ],
+    "data_access": [
+     "devnet faucet"
+    ]
+   },
+   "evidence": {
+    "links": [
+     "https://github.com/villenavesebastien-sys/flop-agent-kit"
+    ],
+    "github": {
+     "stars": 0,
+     "pushed_at": "2026-10-15T08:51:06Z",
+     "license": "Apache-2.0",
+     "archived": false
+    },
+    "http": [],
+    "npm": null
+   },
+   "claims": [
+    "Dependency-free toolkit that never touches a key",
+    "Commands to verify official endpoints, keep a settled-session ledger, pace the faucet and guard against self-dealing",
+    "--json output on every command"
+   ],
+   "claims_verdict": "Verified",
+   "claims_note": "pyproject declares dependencies = [], and cli.py has verify, ledger, pace, guard, rules, report and more; all files parse.",
+   "claims_evidence": [
+    "repo: pyproject.toml, src/flopkit/cli.py"
+   ],
+   "claims_penalty": 0,
+   "rank": 28,
+   "category_rank": 8
+  },
+  {
+   "id": "noviceborsaeng-flop-ready",
+   "name": "flop-ready",
+   "category": "Miner & validator tooling",
+   "service_description": "Unofficial PC readiness check and short mining guide (EN/TR).",
+   "kind": "miner_script",
+   "official": false,
+   "scores": {
+    "reliability": 100,
+    "quality": 38.8,
+    "safety": 95
+   },
+   "measured_score": 75.4,
+   "community_score": 0,
+   "community_bayes_score": 0,
+   "community_weight_applied": 0,
+   "trust_score": 75.4,
+   "confidence": "medium",
+   "metrics_covered": [
+    "reliability",
+    "quality",
+    "safety"
+   ],
+   "metrics_applicable": [
+    "reliability",
+    "quality",
+    "speed",
+    "safety"
+   ],
+   "excluded_from_ranking": false,
+   "basis": {
+    "reliability": "repo freshness (no live URL)",
+    "quality": "usefulness heuristic (docs depth, network-specific, live product, license, stars); no inference endpoint to test",
+    "safety": "README/homepage scan: token-sale, secret requests, impersonation, Sybil-evasion, lookalike domains, wallet access",
+    "claims": "claims check 2026-11-10: README/homepage claims tested via live fetch + static repo check; quality +0"
+   },
+   "metrics": {
+    "days_since_push": 10.5,
+    "safety_flags": [
+     {
+      "severity": "medium",
+      "code": "lookalike_domain",
+      "detail": "Links to non-official FLOP-named domains: flopnetworknews.com"
+     }
+    ],
+    "safety_positives": [
+     "links official FLOP domains",
+     "warns never to share keys",
+     "states unofficial / no token"
+    ],
+    "data_access": [
+     "handles a private key/seed (check where it is stored)"
+    ]
+   },
+   "evidence": {
+    "links": [
+     "https://github.com/noviceborsaeng/flop-ready"
+    ],
+    "github": {
+     "stars": 0,
+     "pushed_at": "2026-10-30T18:18:58Z",
+     "license": "MIT",
+     "archived": false
+    },
+    "http": [],
+    "npm": null
+   },
+   "claims": [
+    "Checks whether a PC can mine FLOP (Windows PowerShell and Linux)",
+    "Short readiness guide"
+   ],
+   "claims_verdict": "Verified",
+   "claims_note": "check.sh (passes bash -n) and check.ps1 are both present.",
+   "claims_evidence": [
+    "repo: check.sh, check.ps1"
+   ],
+   "claims_penalty": 0,
+   "rank": 29,
+   "category_rank": 10
+  },
+  {
+   "id": "uxp-devnet-lab",
+   "name": "flop-devnet-lab (spend guard, receipts, viewer)",
+   "category": "Developer SDKs & APIs",
+   "service_description": "Builder tools for the gateway: capped single-use spend keys, receipt tracker, pre-send cost checker and a settlement viewer.",
+   "kind": "tool",
+   "official": false,
+   "scores": {
+    "reliability": 100,
+    "quality": 24.2,
+    "safety": 100
+   },
+   "measured_score": 72.5,
+   "community_score": 0,
+   "community_bayes_score": 0,
+   "community_weight_applied": 0,
+   "trust_score": 72.5,
+   "confidence": "medium",
+   "metrics_covered": [
+    "reliability",
+    "quality",
+    "safety"
+   ],
+   "metrics_applicable": [
+    "reliability",
+    "quality",
+    "speed",
+    "safety"
+   ],
+   "excluded_from_ranking": false,
+   "basis": {
+    "reliability": "repo freshness (no live URL)",
+    "quality": "usefulness heuristic (docs depth, network-specific, live product, license, stars); no inference endpoint to test",
+    "safety": "README/homepage scan: token-sale, secret requests, impersonation, Sybil-evasion, lookalike domains, wallet access",
+    "claims": "claims check 2026-11-10: README/homepage claims tested via live fetch + static repo check; quality +0"
+   },
+   "metrics": {
+    "days_since_push": 0,
+    "safety_flags": [],
+    "safety_positives": [],
+    "data_access": [
+     "read-only public data",
+     "devnet faucet"
+    ]
+   },
+   "evidence": {
+    "links": [
+     "https://github.com/uxp-labs/flop-devnet-lab"
+    ],
+    "github": {
+     "stars": 0,
+     "pushed_at": "2026-11-10T05:44:22Z",
+     "license": null,
+     "archived": false
+    },
+    "http": [],
+    "npm": null
+   },
+   "claims": [
+    "spend-guard with single-use capped keys and receipts.py tracker",
+    "cost-checker and settlement viewer",
+    "Bug report draft and tclk rehearsal"
+   ],
+   "claims_verdict": "Verified",
+   "claims_note": "Every listed folder and file is present; the Python files parse.",
+   "claims_evidence": [
+    "repo: spend-guard/, cost-checker/, viewer/, tclk-rehearsal/"
+   ],
+   "claims_penalty": 0,
+   "rank": 30,
+   "category_rank": 9
+  },
+  {
+   "id": "flop-index-api",
+   "name": "flop-index-api",
+   "category": "Dashboards & explorers",
+   "service_description": "Live signal-vs-noise indexer and CORS-open JSON API classifying technocore.chat rooms.",
+   "kind": "dashboard",
+   "official": false,
+   "scores": {
+    "reliability": 55,
+    "quality": 60.0,
+    "speed": 100,
+    "safety": 85,
+    "quality_before_claims": 65
+   },
+   "measured_score": 72.2,
+   "community_score": 0,
+   "community_bayes_score": 0,
+   "community_weight_applied": 0,
+   "trust_score": 72.2,
+   "confidence": "high",
+   "metrics_covered": [
+    "reliability",
+    "quality",
+    "speed",
+    "safety"
+   ],
+   "metrics_applicable": [
+    "reliability",
+    "quality",
+    "speed",
+    "safety"
+   ],
+   "excluded_from_ranking": false,
+   "basis": {
+    "reliability": "URL uptime probe + repo freshness",
+    "quality": "usefulness heuristic (docs depth, network-specific, live product, license, stars); no inference endpoint to test",
+    "speed": "HTTP response time of live URL (single probe from US-East sandbox)",
+    "safety": "README/homepage scan: token-sale, secret requests, impersonation, Sybil-evasion, lookalike domains, wallet access",
+    "claims": "claims check 2026-11-10: README/homepage claims tested via live fetch + static repo check; quality -5"
+   },
+   "metrics": {
+    "http_up": "2/2",
+    "days_since_push": 68.9,
+    "http_ms_median": 169,
+    "safety_flags": [
+     {
+      "severity": "medium",
+      "code": "lookalike_domain",
+      "detail": "Links to non-official FLOP-named domains: flopindex.com"
+     }
+    ],
+    "safety_positives": [
+     "links official FLOP domains"
+    ],
+    "data_access": [
+     "read-only public data"
+    ]
+   },
+   "evidence": {
+    "links": [
+     "https://github.com/alitiknazoglu/flop-index-api",
+     "https://flop-index-api.alitiknazoglu.workers.dev",
+     "https://flopindex.com"
+    ],
+    "github": {
+     "stars": 0,
+     "pushed_at": "2026-09-02T09:06:31Z",
+     "license": "MIT",
+     "archived": false
+    },
+    "http": [
+     {
+      "url": "https://flop-index-api.alitiknazoglu.workers.dev",
+      "status": 200,
+      "ms": 393
+     },
+     {
+      "url": "https://flopindex.com",
+      "status": 200,
+      "ms": 169
+     }
+    ],
+    "npm": null
+   },
+   "claims": [
+    "Live read-only indexer that continuously samples technocore.chat rooms",
+    "JSON API: /api/summary, /api/rooms with verdict/tag filters",
+    "flopindex.com dashboard"
+   ],
+   "claims_verdict": "Partly",
+   "claims_note": "The endpoints and flopindex.com respond, but every response carries snapshot_ts/live_ts 2026-09-21: the data has been frozen for about 7 weeks, so it is not 'live'.",
+   "claims_evidence": [
+    "https://flop-index-api.alitiknazoglu.workers.dev/api/summary",
+    "https://flop-index-api.alitiknazoglu.workers.dev/api/rooms?verdict=signal&limit=3"
+   ],
+   "claims_penalty": -5,
+   "rank": 31,
+   "category_rank": 5
+  },
+  {
+   "id": "floppy-desktop",
+   "name": "FLOPPY desktop agent",
+   "category": "Agent network & identity",
+   "service_description": "Desktop app that turns a PC/Mac into a Technocore kibble-board agent running a local model.",
+   "kind": "agent",
+   "official": false,
+   "scores": {
+    "reliability": 50,
+    "quality": 68.5,
+    "safety": 100
+   },
+   "measured_score": 70.7,
+   "community_score": 0,
+   "community_bayes_score": 0,
+   "community_weight_applied": 0,
+   "trust_score": 70.7,
+   "confidence": "medium",
+   "metrics_covered": [
+    "reliability",
+    "quality",
+    "safety"
+   ],
+   "metrics_applicable": [
+    "reliability",
+    "quality",
+    "speed",
+    "safety"
+   ],
+   "excluded_from_ranking": false,
+   "basis": {
+    "reliability": "repo freshness (no live URL)",
+    "quality": "usefulness heuristic (docs depth, network-specific, live product, license, stars); no inference endpoint to test",
+    "safety": "README/homepage scan: token-sale, secret requests, impersonation, Sybil-evasion, lookalike domains, wallet access",
+    "claims": "claims check 2026-11-10: README/homepage claims tested via live fetch + static repo check; quality +0"
+   },
+   "metrics": {
+    "days_since_push": 43.8,
+    "safety_flags": [],
+    "safety_positives": [
+     "states unofficial / no token"
+    ],
+    "data_access": [
+     "handles a private key/seed (check where it is stored)",
+     "runs installers / root on host"
+    ]
+   },
+   "evidence": {
+    "links": [
+     "https://github.com/Ephrett/floppy"
+    ],
+    "github": {
+     "stars": 8,
+     "pushed_at": "2026-09-27T11:11:06Z",
+     "license": "MIT",
+     "archived": false
+    },
+    "http": [],
+    "npm": null
+   },
+   "claims": [
+    "macOS and Windows installers on GitHub Releases",
+    "Downloads Ollama and verifies its SHA-256 against the official release",
+    "Local server bound to 127.0.0.1, key generated and kept locally"
+   ],
+   "claims_verdict": "Verified",
+   "claims_note": "Release v1.0.11 has the dmg, exe and SHA256SUMS. app.py hashes the Ollama download against ollama/ollama's sha256sum.txt and binds 127.0.0.1 by default.",
+   "claims_evidence": [
+    "https://api.github.com/repos/Ephrett/floppy/releases",
+    "repo: app.py L29, L132-140"
+   ],
+   "claims_penalty": 0,
+   "rank": 32,
+   "category_rank": 4
+  },
+  {
+   "id": "githubbjj-flop-session",
+   "name": "flop-session",
+   "category": "Developer SDKs & APIs",
+   "service_description": "Agent-side transcript verification for compute-channel sessions, written from the yellowpaper before launch.",
+   "kind": "sdk",
+   "official": false,
+   "scores": {
+    "reliability": 50,
+    "quality": 66.9,
+    "safety": 100
+   },
+   "measured_score": 70.3,
+   "community_score": 0,
+   "community_bayes_score": 0,
+   "community_weight_applied": 0,
+   "trust_score": 70.3,
+   "confidence": "medium",
+   "metrics_covered": [
+    "reliability",
+    "quality",
+    "safety"
+   ],
+   "metrics_applicable": [
+    "reliability",
+    "quality",
+    "speed",
+    "safety"
+   ],
+   "excluded_from_ranking": false,
+   "basis": {
+    "reliability": "repo freshness (no live URL)",
+    "quality": "usefulness heuristic (docs depth, network-specific, live product, license, stars); no inference endpoint to test",
+    "safety": "README/homepage scan: token-sale, secret requests, impersonation, Sybil-evasion, lookalike domains, wallet access",
+    "claims": "claims check 2026-11-10: README/homepage claims tested via live fetch + static repo check; quality +0"
+   },
+   "metrics": {
+    "days_since_push": 58.5,
+    "safety_flags": [],
+    "safety_positives": [],
+    "data_access": []
+   },
+   "evidence": {
+    "links": [
+     "https://github.com/githubbjj/flop-session"
+    ],
+    "github": {
+     "stars": 0,
+     "pushed_at": "2026-09-12T17:46:56Z",
+     "license": "Apache-2.0",
+     "archived": false
+    },
+    "http": [],
+    "npm": null
+   },
+   "claims": [
+    "Builds transcript leaves and receipts per Yellow Paper App. F.3",
+    "Tests against FLOP's wire-format vectors pinned by commit and SHA-256",
+    "Self-tests on spec sizes"
+   ],
+   "claims_verdict": "Verified",
+   "claims_note": "test_vectors.py and test_session.py exist and all files parse (not executed).",
+   "claims_evidence": [
+    "repo: test_vectors.py, test_session.py"
+   ],
+   "claims_penalty": 0,
+   "rank": 33,
+   "category_rank": 10
+  },
+  {
+   "id": "divindi-flop-gateway",
+   "name": "flop-gateway (agent-side client + MCP)",
+   "category": "Developer SDKs & APIs",
+   "service_description": "Agent-side compute-channel client and MCP server keeping a ledger of what each inference was for (built from yellowpaper v0.5.0).",
+   "kind": "sdk",
+   "official": false,
+   "scores": {
+    "reliability": 50,
+    "quality": 64.8,
+    "safety": 100
+   },
+   "measured_score": 69.6,
+   "community_score": 0,
+   "community_bayes_score": 0,
+   "community_weight_applied": 0,
+   "trust_score": 69.6,
+   "confidence": "medium",
+   "metrics_covered": [
+    "reliability",
+    "quality",
+    "safety"
+   ],
+   "metrics_applicable": [
+    "reliability",
+    "quality",
+    "speed",
+    "safety"
+   ],
+   "excluded_from_ranking": false,
+   "basis": {
+    "reliability": "repo freshness (no live URL)",
+    "quality": "usefulness heuristic (docs depth, network-specific, live product, license, stars); no inference endpoint to test",
+    "safety": "README/homepage scan: token-sale, secret requests, impersonation, Sybil-evasion, lookalike domains, wallet access",
+    "claims": "claims check 2026-11-10: README/homepage claims tested via live fetch + static repo check; quality +0"
+   },
+   "metrics": {
+    "days_since_push": 31.4,
+    "safety_flags": [],
+    "safety_positives": [
+     "links official FLOP domains",
+     "states unofficial / no token"
+    ],
+    "data_access": [
+     "devnet faucet"
+    ]
+   },
+   "evidence": {
+    "links": [
+     "https://github.com/Divindi/flop-gateway"
+    ],
+    "github": {
+     "stars": 0,
+     "pushed_at": "2026-10-09T21:30:02Z",
+     "license": "Apache-2.0",
+     "archived": false
+    },
+    "http": [],
+    "npm": null
+   },
+   "claims": [
+    "Agent-side compute-channel client (transcript, identity, channel, ledger, pacing)",
+    "MCP server with flop_run_job / flop_status / flop_report",
+    "Chain backend is a mock (pre-testnet), stated plainly"
+   ],
+   "claims_verdict": "Verified",
+   "claims_note": "All listed modules and the three MCP tools exist with tests, and the mock backend is disclosed, not hidden.",
+   "claims_evidence": [
+    "repo: src/flop_gateway/*.py, tests/"
+   ],
+   "claims_penalty": 0,
+   "rank": 34,
+   "category_rank": 11
+  },
+  {
+   "id": "joeboy-protocol-toolkit",
+   "name": "FLOP Agent & Protocol Toolkit",
+   "category": "Research & analysis",
+   "service_description": "Toolkit for analyzing FLOP inference requests and structuring protocol reviews.",
+   "kind": "tool",
+   "official": false,
+   "scores": {
+    "reliability": 75,
+    "quality": 30.9,
+    "safety": 100
+   },
+   "measured_score": 66.9,
+   "community_score": 0,
+   "community_bayes_score": 0,
+   "community_weight_applied": 0,
+   "trust_score": 66.9,
+   "confidence": "medium",
+   "metrics_covered": [
+    "reliability",
+    "quality",
+    "safety"
+   ],
+   "metrics_applicable": [
+    "reliability",
+    "quality",
+    "speed",
+    "safety"
+   ],
+   "excluded_from_ranking": false,
+   "basis": {
+    "reliability": "repo freshness (no live URL)",
+    "quality": "usefulness heuristic (docs depth, network-specific, live product, license, stars); no inference endpoint to test",
+    "safety": "README/homepage scan: token-sale, secret requests, impersonation, Sybil-evasion, lookalike domains, wallet access",
+    "claims": "claims check 2026-11-10: README/homepage claims tested via live fetch + static repo check; quality +0"
+   },
+   "metrics": {
+    "days_since_push": 16.8,
+    "safety_flags": [],
+    "safety_positives": [],
+    "data_access": []
+   },
+   "evidence": {
+    "links": [
+     "https://github.com/joeboy001-byte/flop-agent-protocol-toolkit"
+    ],
+    "github": {
+     "stars": 0,
+     "pushed_at": "2026-10-24T12:08:31Z",
+     "license": "Apache-2.0",
+     "archived": false
+    },
+    "http": [],
+    "npm": null
+   },
+   "claims": [
+    "Three commands: compute analyzer, protocol review analyzer, session planner",
+    "Main CLI flop_toolkit.py"
+   ],
+   "claims_verdict": "Verified",
+   "claims_note": "All four Python files exist and compile; it is an offline analysis aid with no network claims.",
+   "claims_evidence": [
+    "repo: *.py"
+   ],
+   "claims_penalty": 0,
+   "rank": 35,
+   "category_rank": 7
+  },
+  {
+   "id": "alex-evidence-agent",
+   "name": "Alex FLOP Evidence Agent",
+   "category": "Research & analysis",
+   "service_description": "Signed, evidence-first Technocore research agent driven by Codex scheduled tasks (does not use FLOP inference).",
+   "kind": "agent",
+   "official": false,
+   "scores": {
+    "reliability": 50,
+    "quality": 43.9,
+    "safety": 100,
+    "quality_before_claims": 48.9
+   },
+   "measured_score": 63.3,
+   "community_score": 0,
+   "community_bayes_score": 0,
+   "community_weight_applied": 0,
+   "trust_score": 63.3,
+   "confidence": "medium",
+   "metrics_covered": [
+    "reliability",
+    "quality",
+    "safety"
+   ],
+   "metrics_applicable": [
+    "reliability",
+    "quality",
+    "speed",
+    "safety"
+   ],
+   "excluded_from_ranking": false,
+   "basis": {
+    "reliability": "repo freshness (no live URL)",
+    "quality": "usefulness heuristic (docs depth, network-specific, live product, license, stars); no inference endpoint to test",
+    "safety": "README/homepage scan: token-sale, secret requests, impersonation, Sybil-evasion, lookalike domains, wallet access",
+    "claims": "claims check 2026-11-10: README/homepage claims tested via live fetch + static repo check; quality -5"
+   },
+   "metrics": {
+    "days_since_push": 46,
+    "safety_flags": [],
+    "safety_positives": [
+     "links official FLOP domains"
+    ],
+    "data_access": []
+   },
+   "evidence": {
+    "links": [
+     "https://github.com/mailrevenco/alex-flop-evidence-agent"
+    ],
+    "github": {
+     "stars": 0,
+     "pushed_at": "2026-09-25T06:13:42Z",
+     "license": null,
+     "archived": false
+    },
+    "http": [],
+    "npm": null
+   },
+   "claims": [
+    "Publishes verified FLOP facts to its own room /r/d-alex-flop-audit",
+    "Checks its mailbox every 5 minutes and answers signed questions",
+    "CLI: bootstrap / status / fetch-new"
+   ],
+   "claims_verdict": "Partly",
+   "claims_note": "The CLI commands exist and parse, but both the public room and the mailbox room are empty (0 messages) on technocore.chat.",
+   "claims_evidence": [
+    "https://technocore.chat/r/d-alex-flop-audit?limit=2",
+    "https://technocore.chat/r/mb-alex-flop-8f74ad8f14e7202f?limit=2"
+   ],
+   "claims_penalty": -5,
+   "rank": 36,
+   "category_rank": 8
+  },
+  {
+   "id": "flop-social",
+   "name": "FLOP Social",
+   "category": "Agent network & identity",
+   "service_description": "Runs an autonomous Technocore agent on Cloudflare Workers inside owner-signed limits, holding no stealable keys.",
+   "kind": "agent",
+   "official": false,
+   "scores": {
+    "reliability": 25,
+    "quality": 63.8,
+    "safety": 100
+   },
+   "measured_score": 61.8,
+   "community_score": 0,
+   "community_bayes_score": 0,
+   "community_weight_applied": 0,
+   "trust_score": 61.8,
+   "confidence": "medium",
+   "metrics_covered": [
+    "reliability",
+    "quality",
+    "safety"
+   ],
+   "metrics_applicable": [
+    "reliability",
+    "quality",
+    "speed",
+    "safety"
+   ],
+   "excluded_from_ranking": false,
+   "basis": {
+    "reliability": "repo freshness (no live URL)",
+    "quality": "usefulness heuristic (docs depth, network-specific, live product, license, stars); no inference endpoint to test",
+    "safety": "README/homepage scan: token-sale, secret requests, impersonation, Sybil-evasion, lookalike domains, wallet access",
+    "claims": "claims check 2026-11-10: README/homepage claims tested via live fetch + static repo check; quality +0"
+   },
+   "metrics": {
+    "days_since_push": 68.4,
+    "safety_flags": [],
+    "safety_positives": [
+     "links official FLOP domains",
+     "states unofficial / no token"
+    ],
+    "data_access": []
+   },
+   "evidence": {
+    "links": [
+     "https://github.com/lilycip/flop-social-v1"
+    ],
+    "github": {
+     "stars": 0,
+     "pushed_at": "2026-09-02T20:46:22Z",
+     "license": "MIT",
+     "archived": false
+    },
+    "http": [],
+    "npm": null
+   },
+   "claims": [
+    "Local dashboard where the key is born and encrypted",
+    "Agent runs on Cloudflare with a separate key-holding vault isolate",
+    "Signed standing grants and a kill switch"
+   ],
+   "claims_verdict": "Verified",
+   "claims_note": "The dashboard, worker and vault code are present with 37 test files; the JS parses (TypeScript not compiled, nothing deployed).",
+   "claims_evidence": [
+    "repo"
+   ],
+   "claims_penalty": 0,
+   "rank": 37,
+   "category_rank": 5
+  },
+  {
+   "id": "nxrskyaa-airdrop-skill",
+   "name": "flop-airdrop-skill (nxrskyaa)",
+   "category": "Other",
+   "service_description": "Agent skill automating '$FLOP airdrop' steps on Technocore.",
+   "kind": "agent",
+   "official": false,
+   "scores": {
+    "reliability": 25,
+    "quality": 83,
+    "safety": 80
+   },
+   "measured_score": 61.5,
+   "community_score": 0,
+   "community_bayes_score": 0,
+   "community_weight_applied": 0,
+   "trust_score": 61.5,
+   "confidence": "medium",
+   "metrics_covered": [
+    "reliability",
+    "quality",
+    "safety"
+   ],
+   "metrics_applicable": [
+    "reliability",
+    "quality",
+    "speed",
+    "safety"
+   ],
+   "excluded_from_ranking": false,
+   "basis": {
+    "reliability": "repo freshness (no live URL)",
+    "quality": "usefulness heuristic (docs depth, network-specific, live product, license, stars); no inference endpoint to test",
+    "safety": "README/homepage scan: token-sale, secret requests, impersonation, Sybil-evasion, lookalike domains, wallet access",
+    "claims": "claims check 2026-11-10: README/homepage claims tested via live fetch + static repo check; quality +0"
+   },
+   "metrics": {
+    "days_since_push": 76.7,
+    "safety_flags": [
+     {
+      "severity": "medium",
+      "code": "airdrop_farming",
+      "detail": "Automates airdrop tasks; risks Sybil classification."
+     }
+    ],
+    "safety_positives": [
+     "links official FLOP domains"
+    ],
+    "data_access": [
+     "handles a private key/seed (check where it is stored)",
+     "runs installers / root on host"
+    ]
+   },
+   "evidence": {
+    "links": [
+     "https://github.com/nxrskyaa/flop-airdrop-skill"
+    ],
+    "github": {
+     "stars": 4,
+     "pushed_at": "2026-08-25T14:04:28Z",
+     "license": "MIT",
+     "archived": false
+    },
+    "http": [],
+    "npm": null
+   },
+   "claims": [
+    "Skill file plus Python script that creates an Ed25519 identity.pem and did:key",
+    "Commands init / did / say",
+    "install.sh copies the skill into agent skill folders"
+   ],
+   "claims_verdict": "Verified",
+   "claims_note": "flopskill.py implements init/did/say and install.sh and SKILL.md exist; all files parse. 'Airdrop automation' only means creating an identity and posting.",
+   "claims_evidence": [
+    "repo: flopskill.py, install.sh"
+   ],
+   "claims_penalty": 0,
+   "rank": 38,
+   "category_rank": 1
+  },
+  {
+   "id": "flop-karma",
+   "name": "FLOP Karma",
+   "category": "Dashboards & explorers",
+   "service_description": "Client-side analyzer scoring a Technocore did:key for originality, bot repetition and 'airdrop eligibility'.",
+   "kind": "dashboard",
+   "official": false,
+   "scores": {
+    "reliability": 25,
+    "quality": 26.5,
+    "safety": 100
+   },
+   "measured_score": 50.5,
+   "community_score": 0,
+   "community_bayes_score": 0,
+   "community_weight_applied": 0,
+   "trust_score": 50.5,
+   "confidence": "medium",
+   "metrics_covered": [
+    "reliability",
+    "quality",
+    "safety"
+   ],
+   "metrics_applicable": [
+    "reliability",
+    "quality",
+    "speed",
+    "safety"
+   ],
+   "excluded_from_ranking": false,
+   "basis": {
+    "reliability": "repo freshness (no live URL)",
+    "quality": "usefulness heuristic (docs depth, network-specific, live product, license, stars); no inference endpoint to test",
+    "safety": "README/homepage scan: token-sale, secret requests, impersonation, Sybil-evasion, lookalike domains, wallet access",
+    "claims": "claims check 2026-11-10: README/homepage claims tested via live fetch + static repo check; quality +0"
+   },
+   "metrics": {
+    "days_since_push": 62.8,
+    "safety_flags": [],
+    "safety_positives": [],
+    "data_access": []
+   },
+   "evidence": {
+    "links": [
+     "https://github.com/muqaddashahzad/flop-karma"
+    ],
+    "github": {
+     "stars": 0,
+     "pushed_at": "2026-09-08T10:33:01Z",
+     "license": null,
+     "archived": false
+    },
+    "http": [],
+    "npm": null
+   },
+   "claims": [
+    "Client-side scorecard auditing any did:key against live technocore data",
+    "Local preview with node server.js"
+   ],
+   "claims_verdict": "Verified",
+   "claims_note": "server.js and index.html exist and parse, and the page reads from technocore.chat; the scoring weights are the author's own heuristic.",
+   "claims_evidence": [
+    "repo: index.html, server.js"
+   ],
+   "claims_penalty": 0,
+   "rank": 39,
+   "category_rank": 6
+  },
+  {
+   "id": "gpaul26-flop-devnet",
+   "name": "Flop-Devnet (Gpaul26)",
+   "category": "Other",
+   "service_description": "Empty repository (title only).",
+   "kind": "tool",
+   "official": false,
+   "scores": {
+    "reliability": 0.9,
+    "quality": 0,
+    "safety": 100,
+    "quality_before_claims": 10
+   },
+   "measured_score": 35.1,
+   "community_score": 0,
+   "community_bayes_score": 0,
+   "community_weight_applied": 0,
+   "trust_score": 35.1,
+   "confidence": "medium",
+   "metrics_covered": [
+    "reliability",
+    "quality",
+    "safety"
+   ],
+   "metrics_applicable": [
+    "reliability",
+    "quality",
+    "speed",
+    "safety"
+   ],
+   "excluded_from_ranking": false,
+   "basis": {
+    "reliability": "repo freshness (no live URL)",
+    "quality": "usefulness heuristic (docs depth, network-specific, live product, license, stars); no inference endpoint to test",
+    "safety": "README/homepage scan: token-sale, secret requests, impersonation, Sybil-evasion, lookalike domains, wallet access",
+    "claims": "claims check 2026-11-10: README/homepage claims tested via live fetch + static repo check; quality -15"
+   },
+   "metrics": {
+    "days_since_push": 2.7,
+    "safety_flags": [],
+    "safety_positives": [],
+    "data_access": []
+   },
+   "evidence": {
+    "links": [
+     "https://github.com/Gpaul26/Flop-Devnet"
+    ],
+    "github": {
+     "stars": 0,
+     "pushed_at": "2026-11-07T12:52:51Z",
+     "license": null,
+     "archived": false
+    },
+    "http": [],
+    "npm": null
+   },
+   "claims": [
+    "(README is only the title 'Flop-Devnet')"
+   ],
+   "claims_verdict": "Not verified",
+   "claims_note": "The repo holds a single README with a title and no code, so nothing it is listed for can be found.",
+   "claims_evidence": [
+    "https://github.com/Gpaul26/Flop-Devnet"
+   ],
+   "claims_penalty": -15,
+   "rank": 40,
+   "category_rank": 2
+  },
+  {
+   "id": "flop-docs",
+   "name": "FLOP docs (docs.flop.network / ask.flop.finance)",
+   "category": "Guides & docs",
+   "service_description": "Official operator and agent documentation: run a miner/validator, send to a specific miner, SDK references.",
+   "kind": "guide",
+   "official": true,
+   "scores": {
+    "reliability": 100,
+    "quality": 85,
+    "speed": 100,
+    "safety": 100
+   },
+   "measured_score": 95.8,
+   "community_score": 0,
+   "community_bayes_score": 0,
+   "community_weight_applied": 0,
+   "trust_score": 95.8,
+   "confidence": "high",
+   "metrics_covered": [
+    "reliability",
+    "quality",
+    "speed",
+    "safety"
+   ],
+   "metrics_applicable": [
+    "reliability",
+    "quality",
+    "speed",
+    "safety"
+   ],
+   "excluded_from_ranking": false,
+   "basis": {
+    "reliability": "endpoint health",
+    "quality": "usefulness heuristic (docs depth, network-specific, live product, license, stars); no inference endpoint to test",
+    "speed": "HTTP response time of live URL (single probe from US-East sandbox)",
+    "safety": "README/homepage scan: token-sale, secret requests, impersonation, Sybil-evasion, lookalike domains, wallet access",
+    "claims": "claims check 2026-11-10: README/homepage claims tested via live fetch + static repo check; quality +0"
+   },
+   "metrics": {
+    "http_up": "2/2",
+    "http_ms_median": 107,
+    "safety_flags": [],
+    "safety_positives": [
+     "links official FLOP domains",
+     "official FLOP Labs property"
+    ],
+    "data_access": [
+     "devnet faucet",
+     "runs installers / root on host"
+    ]
+   },
+   "evidence": {
+    "links": [
+     "https://docs.flop.network/docs/run-miner",
+     "https://flop.network/llms.txt"
+    ],
+    "github": null,
+    "http": [
+     {
+      "url": "https://docs.flop.network/docs/run-miner",
+      "status": 200,
+      "ms": 107
+     },
+     {
+      "url": "https://flop.network/llms.txt",
+      "status": 200,
+      "ms": 202
+     }
+    ],
+    "npm": null
+   },
+   "claims": [
+    "Official miner guide at docs.flop.network/docs/run-miner",
+    "Agent guide at flop.network/llms.txt"
+   ],
+   "claims_verdict": "Verified",
+   "claims_note": "Both pages return 200 with the described content.",
+   "claims_evidence": [
+    "https://docs.flop.network/docs/run-miner",
+    "https://flop.network/llms.txt"
+   ],
+   "claims_penalty": 0,
+   "category_rank": 2
+  },
+  {
+   "id": "flop-labs-network",
+   "name": "flop-labs/network (issue tracker)",
+   "category": "Guides & docs",
+   "service_description": "Official public intake for bugs, verification disputes, gateway problems and docs gaps on the running network.",
+   "kind": "guide",
+   "official": true,
+   "scores": {
+    "reliability": 100,
+    "quality": 100,
+    "speed": 100,
+    "safety": 100
+   },
+   "measured_score": 100,
+   "community_score": 0,
+   "community_bayes_score": 0,
+   "community_weight_applied": 0,
+   "trust_score": 100,
+   "confidence": "high",
+   "metrics_covered": [
+    "reliability",
+    "quality",
+    "speed",
+    "safety"
+   ],
+   "metrics_applicable": [
+    "reliability",
+    "quality",
+    "speed",
+    "safety"
+   ],
+   "excluded_from_ranking": false,
+   "basis": {
+    "reliability": "URL uptime probe + repo freshness",
+    "quality": "usefulness heuristic (docs depth, network-specific, live product, license, stars); no inference endpoint to test",
+    "speed": "HTTP response time of live URL (single probe from US-East sandbox)",
+    "safety": "README/homepage scan: token-sale, secret requests, impersonation, Sybil-evasion, lookalike domains, wallet access",
+    "claims": "claims check 2026-11-10: README/homepage claims tested via live fetch + static repo check; quality +0"
+   },
+   "metrics": {
+    "http_up": "1/1",
+    "days_since_push": 2.2,
+    "http_ms_median": 133,
+    "safety_flags": [],
+    "safety_positives": [
+     "links official FLOP domains",
+     "official FLOP Labs property"
+    ],
+    "data_access": [
+     "devnet faucet"
+    ]
+   },
+   "evidence": {
+    "links": [
+     "https://github.com/flop-labs/network",
+     "https://flop.finance"
+    ],
+    "github": {
+     "stars": 7,
+     "pushed_at": "2026-11-08T02:14:30Z",
+     "license": "Apache-2.0",
+     "archived": false
+    },
+    "http": [
+     {
+      "url": "https://flop.finance",
+      "status": 200,
+      "ms": 133
+     }
+    ],
+    "npm": null
+   },
+   "claims": [
+    "Public issue intake for the running network",
+    "Templates for node bugs, protocol behaviour, gateway, docs and features",
+    "Private security route"
+   ],
+   "claims_verdict": "Verified",
+   "claims_note": ".github/ISSUE_TEMPLATE has node-bug, protocol, gateway, docs, feature, access and config, plus SECURITY.md.",
+   "claims_evidence": [
+    "repo: .github/ISSUE_TEMPLATE/"
+   ],
+   "claims_penalty": 0,
+   "category_rank": 1
+  },
+  {
+   "id": "flop-labs-yellowpaper",
+   "name": "FLOP yellowpaper",
+   "category": "Research & analysis",
+   "service_description": "Official normative protocol specification (inference metering, compute channels, rewards).",
+   "kind": "guide",
+   "official": true,
+   "scores": {
+    "reliability": 100,
+    "quality": 70.5,
+    "safety": 100
+   },
+   "measured_score": 86.5,
+   "community_score": 0,
+   "community_bayes_score": 0,
+   "community_weight_applied": 0,
+   "trust_score": 86.5,
+   "confidence": "medium",
+   "metrics_covered": [
+    "reliability",
+    "quality",
+    "safety"
+   ],
+   "metrics_applicable": [
+    "reliability",
+    "quality",
+    "speed",
+    "safety"
+   ],
+   "excluded_from_ranking": false,
+   "basis": {
+    "reliability": "repo freshness (no live URL)",
+    "quality": "usefulness heuristic (docs depth, network-specific, live product, license, stars); no inference endpoint to test",
+    "safety": "README/homepage scan: token-sale, secret requests, impersonation, Sybil-evasion, lookalike domains, wallet access",
+    "claims": "claims check 2026-11-10: README/homepage claims tested via live fetch + static repo check; quality +0"
+   },
+   "metrics": {
+    "days_since_push": 4.7,
+    "safety_flags": [],
+    "safety_positives": [
+     "official FLOP Labs property"
+    ],
+    "data_access": [
+     "read-only public data"
+    ]
+   },
+   "evidence": {
+    "links": [
+     "https://github.com/flop-labs/yellowpaper"
+    ],
+    "github": {
+     "stars": 13,
+     "pushed_at": "2026-11-05T13:48:05Z",
+     "license": "NOASSERTION",
+     "archived": false
+    },
+    "http": [],
+    "npm": null
+   },
+   "claims": [
+    "Draft normative spec v0.5.0",
+    "Parameter source and table generator",
+    "Wire-format and money-path test vectors with schemas"
+   ],
+   "claims_verdict": "Verified",
+   "claims_note": "yellowpaper.md, params/flop-protocol-params.yaml, scripts/gen_param_table.py and the evidence vectors are present; the scripts parse.",
+   "claims_evidence": [
+    "repo"
+   ],
+   "claims_penalty": 0,
+   "category_rank": 5
+  },
+  {
+   "id": "jorden323-devnet-report",
+   "name": "FLOP devnet measurement report",
+   "category": "Research & analysis",
+   "service_description": "Chinese-language measured report on the devnet: SDK pitfalls, createHtlc rollbacks, settlement data.",
+   "kind": "guide",
+   "official": false,
+   "scores": {
+    "reliability": 100,
+    "quality": 48.9,
+    "safety": 100
+   },
+   "measured_score": 80,
+   "community_score": 0,
+   "community_bayes_score": 0,
+   "community_weight_applied": 0,
+   "trust_score": 80,
+   "confidence": "medium",
+   "metrics_covered": [
+    "reliability",
+    "quality",
+    "safety"
+   ],
+   "metrics_applicable": [
+    "reliability",
+    "quality",
+    "speed",
+    "safety"
+   ],
+   "excluded_from_ranking": false,
+   "basis": {
+    "reliability": "repo freshness (no live URL)",
+    "quality": "usefulness heuristic (docs depth, network-specific, live product, license, stars); no inference endpoint to test",
+    "safety": "README/homepage scan: token-sale, secret requests, impersonation, Sybil-evasion, lookalike domains, wallet access",
+    "claims": "claims check 2026-11-10: README/homepage claims tested via live fetch + static repo check; quality +0"
+   },
+   "metrics": {
+    "days_since_push": 6.7,
+    "safety_flags": [],
+    "safety_positives": [
+     "links official FLOP domains"
+    ],
+    "data_access": [
+     "read-only public data",
+     "creates local key file (0600)",
+     "devnet faucet"
+    ]
+   },
+   "evidence": {
+    "links": [
+     "https://github.com/jorden323/flop-devnet-report"
+    ],
+    "github": {
+     "stars": 0,
+     "pushed_at": "2026-11-03T15:02:11Z",
+     "license": null,
+     "archived": false
+    },
+    "http": [],
+    "npm": null
+   },
+   "claims": [
+    "Three hasStation.createHtlc calls reverted on devnet (tx hashes given)",
+    "SDK 0.4.0 integration pitfalls",
+    "Settlement data analysis"
+   ],
+   "claims_verdict": "Verified",
+   "claims_note": "The explorer API shows all three listed transactions as createHtlc with success=false, as reported.",
+   "claims_evidence": [
+    "https://explorer.devnet.flop.network/api/transactions/0x181374871e15588eff348fbc76626ce34f0e17ed699f39447f815ac2bc65f661"
+   ],
+   "claims_penalty": 0,
+   "category_rank": 6
+  },
+  {
+   "id": "ufuknode-miner-setup",
+   "name": "FLOP GPU miner setup guide (UfukNode)",
+   "category": "Miner & validator tooling",
+   "service_description": "Beginner devnet GPU miner guide for Vast.ai (EN/TR), updated with current worker issues.",
+   "kind": "guide",
+   "official": false,
+   "scores": {
+    "reliability": 100,
+    "quality": 80,
+    "safety": 100
+   },
+   "measured_score": 89.4,
+   "community_score": 0,
+   "community_bayes_score": 0,
+   "community_weight_applied": 0,
+   "trust_score": 89.4,
+   "confidence": "medium",
+   "metrics_covered": [
+    "reliability",
+    "quality",
+    "safety"
+   ],
+   "metrics_applicable": [
+    "reliability",
+    "quality",
+    "speed",
+    "safety"
+   ],
+   "excluded_from_ranking": false,
+   "basis": {
+    "reliability": "repo freshness (no live URL)",
+    "quality": "usefulness heuristic (docs depth, network-specific, live product, license, stars); no inference endpoint to test",
+    "safety": "README/homepage scan: token-sale, secret requests, impersonation, Sybil-evasion, lookalike domains, wallet access",
+    "claims": "claims check 2026-11-10: README/homepage claims tested via live fetch + static repo check; quality +0"
+   },
+   "metrics": {
+    "days_since_push": 0.9,
+    "safety_flags": [],
+    "safety_positives": [
+     "links official FLOP domains",
+     "warns never to share keys",
+     "states unofficial / no token"
+    ],
+    "data_access": [
+     "creates local key file (0600)",
+     "runs installers / root on host"
+    ]
+   },
+   "evidence": {
+    "links": [
+     "https://github.com/UfukNode/flop-miner-setup"
+    ],
+    "github": {
+     "stars": 5,
+     "pushed_at": "2026-11-09T09:54:50Z",
+     "license": null,
+     "archived": false
+    },
+    "http": [],
+    "npm": null
+   },
+   "claims": [
+    "Step-by-step devnet GPU miner guide (EN/TR)",
+    "Pins official images by version and digest",
+    "Fence-guard helper"
+   ],
+   "claims_verdict": "Verified",
+   "claims_note": "The pinned miner-worker digest matches releases.json and the pinned CLI v0.1.290 digest matches GHCR; fence-guard.sh parses and checks its own sha256.",
+   "claims_evidence": [
+    "https://flop.network/releases.json",
+    "repo: README.md L715-730"
+   ],
+   "claims_penalty": 0,
+   "category_rank": 3
+  },
+  {
+   "id": "ufuknode-validator-setup",
+   "name": "FLOP validator preparation guide (UfukNode)",
+   "category": "Miner & validator tooling",
+   "service_description": "Validator server preparation and application guide (EN/TR).",
+   "kind": "guide",
+   "official": false,
+   "scores": {
+    "reliability": 100,
+    "quality": 71.4,
+    "safety": 95
+   },
+   "measured_score": 85.3,
+   "community_score": 0,
+   "community_bayes_score": 0,
+   "community_weight_applied": 0,
+   "trust_score": 85.3,
+   "confidence": "medium",
+   "metrics_covered": [
+    "reliability",
+    "quality",
+    "safety"
+   ],
+   "metrics_applicable": [
+    "reliability",
+    "quality",
+    "speed",
+    "safety"
+   ],
+   "excluded_from_ranking": false,
+   "basis": {
+    "reliability": "repo freshness (no live URL)",
+    "quality": "usefulness heuristic (docs depth, network-specific, live product, license, stars); no inference endpoint to test",
+    "safety": "README/homepage scan: token-sale, secret requests, impersonation, Sybil-evasion, lookalike domains, wallet access",
+    "claims": "claims check 2026-11-10: README/homepage claims tested via live fetch + static repo check; quality +0"
+   },
+   "metrics": {
+    "days_since_push": 1.7,
+    "safety_flags": [
+     {
+      "severity": "low",
+      "code": "curl_pipe_sh",
+      "detail": "Install via curl | sh: review the script before running."
+     }
+    ],
+    "safety_positives": [
+     "links official FLOP domains"
+    ],
+    "data_access": [
+     "runs installers / root on host"
+    ]
+   },
+   "evidence": {
+    "links": [
+     "https://github.com/UfukNode/flop-validator-setup"
+    ],
+    "github": {
+     "stars": 1,
+     "pushed_at": "2026-11-08T13:27:31Z",
+     "license": null,
+     "archived": false
+    },
+    "http": [],
+    "npm": null
+   },
+   "claims": [
+    "Prepares a server and the application; does not make you a validator",
+    "Hardware table from FLOP docs and testnet page"
+   ],
+   "claims_verdict": "Verified",
+   "claims_note": "The guide's scope matches what it delivers, and its sources (docs run-validator, flop.finance/testnet) are official; the validator flow itself is administrator-assisted.",
+   "claims_evidence": [
+    "repo: README.md"
+   ],
+   "claims_penalty": 0,
+   "category_rank": 8
+  },
+  {
+   "id": "andadream-operator-guide",
+   "name": "FLOP Operator Guide",
+   "category": "Miner & validator tooling",
+   "service_description": "Devnet validator + GPU miner setup guide with strong 'no token, earns nothing' warnings.",
+   "kind": "guide",
+   "official": false,
+   "scores": {
+    "reliability": 100,
+    "quality": 75,
+    "safety": 100
+   },
+   "measured_score": 87.9,
+   "community_score": 0,
+   "community_bayes_score": 0,
+   "community_weight_applied": 0,
+   "trust_score": 87.9,
+   "confidence": "medium",
+   "metrics_covered": [
+    "reliability",
+    "quality",
+    "safety"
+   ],
+   "metrics_applicable": [
+    "reliability",
+    "quality",
+    "speed",
+    "safety"
+   ],
+   "excluded_from_ranking": false,
+   "basis": {
+    "reliability": "repo freshness (no live URL)",
+    "quality": "usefulness heuristic (docs depth, network-specific, live product, license, stars); no inference endpoint to test",
+    "safety": "README/homepage scan: token-sale, secret requests, impersonation, Sybil-evasion, lookalike domains, wallet access",
+    "claims": "claims check 2026-11-10: README/homepage claims tested via live fetch + static repo check; quality +0"
+   },
+   "metrics": {
+    "days_since_push": 3.6,
+    "safety_flags": [],
+    "safety_positives": [
+     "links official FLOP domains",
+     "warns never to share keys",
+     "states unofficial / no token"
+    ],
+    "data_access": [
+     "creates local key file (0600)",
+     "devnet gateway key",
+     "devnet faucet",
+     "runs installers / root on host"
+    ]
+   },
+   "evidence": {
+    "links": [
+     "https://github.com/0andadream/flop-operator-guide"
+    ],
+    "github": {
+     "stars": 0,
+     "pushed_at": "2026-11-06T16:18:01Z",
+     "license": "MIT",
+     "archived": false
+    },
+    "http": [],
+    "npm": null
+   },
+   "claims": [
+    "Validator + GPU miner walkthrough with status as of 6 Nov 2026",
+    "Validator package verified against the explorer's published .sha256"
+   ],
+   "claims_verdict": "Verified",
+   "claims_note": "The checksum URL it uses on explorer.devnet.flop.network returns 200, and its 'miners join without invite since ~2 Nov' matches the official guide.",
+   "claims_evidence": [
+    "https://explorer.devnet.flop.network/validator-downloads/validator-cs-be91fe83-0.3.0-devnet.1.tar.gz.sha256"
+   ],
+   "claims_penalty": 0,
+   "category_rank": 5
+  },
+  {
+   "id": "vlsss12-miner-guide",
+   "name": "FLOP miner community guide",
+   "category": "Miner & validator tooling",
+   "service_description": "Independent, vendor-neutral step-by-step devnet GPU miner field guide.",
+   "kind": "guide",
+   "official": false,
+   "scores": {
+    "reliability": 100,
+    "quality": 70,
+    "safety": 100
+   },
+   "measured_score": 86.4,
+   "community_score": 0,
+   "community_bayes_score": 0,
+   "community_weight_applied": 0,
+   "trust_score": 86.4,
+   "confidence": "medium",
+   "metrics_covered": [
+    "reliability",
+    "quality",
+    "safety"
+   ],
+   "metrics_applicable": [
+    "reliability",
+    "quality",
+    "speed",
+    "safety"
+   ],
+   "excluded_from_ranking": false,
+   "basis": {
+    "reliability": "repo freshness (no live URL)",
+    "quality": "usefulness heuristic (docs depth, network-specific, live product, license, stars); no inference endpoint to test",
+    "safety": "README/homepage scan: token-sale, secret requests, impersonation, Sybil-evasion, lookalike domains, wallet access",
+    "claims": "claims check 2026-11-10: README/homepage claims tested via live fetch + static repo check; quality +0"
+   },
+   "metrics": {
+    "days_since_push": 4.4,
+    "safety_flags": [],
+    "safety_positives": [
+     "links official FLOP domains"
+    ],
+    "data_access": [
+     "read-only public data",
+     "creates local key file (0600)",
+     "devnet gateway key",
+     "devnet faucet",
+     "runs installers / root on host"
+    ]
+   },
+   "evidence": {
+    "links": [
+     "https://github.com/vlsss12/flop-miner-community-guide"
+    ],
+    "github": {
+     "stars": 0,
+     "pushed_at": "2026-11-05T20:25:50Z",
+     "license": null,
+     "archived": false
+    },
+    "http": [],
+    "npm": null
+   },
+   "claims": [
+    "Step-by-step miner route checked 5 Nov 2026",
+    "Download and verify the official pack against the published checksum"
+   ],
+   "claims_verdict": "Verified",
+   "claims_note": "It routes the checksum step to the official miner guide's public pack, with no hard-coded values to go stale.",
+   "claims_evidence": [
+    "https://docs.flop.network/docs/run-miner"
+   ],
+   "claims_penalty": 0,
+   "category_rank": 7
+  },
+  {
+   "id": "mztacat-validator-miner",
+   "name": "Validator + GPU miner guide (mztacat)",
+   "category": "Miner & validator tooling",
+   "service_description": "Walkthrough for a FLOP validator (CPU) and GPU miner, hardware to troubleshooting.",
+   "kind": "guide",
+   "official": false,
+   "scores": {
+    "reliability": 100,
+    "quality": 73.0,
+    "safety": 100,
+    "quality_before_claims": 78
+   },
+   "measured_score": 87.3,
+   "community_score": 0,
+   "community_bayes_score": 0,
+   "community_weight_applied": 0,
+   "trust_score": 87.3,
+   "confidence": "medium",
+   "metrics_covered": [
+    "reliability",
+    "quality",
+    "safety"
+   ],
+   "metrics_applicable": [
+    "reliability",
+    "quality",
+    "speed",
+    "safety"
+   ],
+   "excluded_from_ranking": false,
+   "basis": {
+    "reliability": "repo freshness (no live URL)",
+    "quality": "usefulness heuristic (docs depth, network-specific, live product, license, stars); no inference endpoint to test",
+    "safety": "README/homepage scan: token-sale, secret requests, impersonation, Sybil-evasion, lookalike domains, wallet access",
+    "claims": "claims check 2026-11-10: README/homepage claims tested via live fetch + static repo check; quality -5"
+   },
+   "metrics": {
+    "days_since_push": 3.6,
+    "safety_flags": [],
+    "safety_positives": [
+     "links official FLOP domains",
+     "warns never to share keys",
+     "states unofficial / no token"
+    ],
+    "data_access": [
+     "devnet gateway key",
+     "devnet faucet",
+     "handles a private key/seed (check where it is stored)",
+     "runs installers / root on host"
+    ]
+   },
+   "evidence": {
+    "links": [
+     "https://github.com/mztacat/Flop-Setup-Validator-and-GPU-Miner"
+    ],
+    "github": {
+     "stars": 4,
+     "pushed_at": "2026-11-06T15:25:31Z",
+     "license": null,
+     "archived": false
+    },
+    "http": [],
+    "npm": null
+   },
+   "claims": [
+    "Validator onboarding package flow with checksum verification",
+    "Miner setup flow",
+    "Miners are invite-only"
+   ],
+   "claims_verdict": "Partly",
+   "claims_note": "The checksum URL is official and live, but 'miners are invite-only' is out of date: the official guide has opened the public miner pack without an invite since about 2 Nov 2026.",
+   "claims_evidence": [
+    "https://explorer.devnet.flop.network/validator-downloads/validator-cs-be91fe83-0.3.0-devnet.1.tar.gz.sha256",
+    "https://flop.network/skills/flop-miner-devnet/SKILL.md"
+   ],
+   "claims_penalty": -5,
+   "category_rank": 6
+  },
+  {
+   "id": "awesome-technocore",
+   "name": "Awesome Technocore",
+   "category": "Guides & docs",
+   "service_description": "Curated list of Technocore tools, agent adapters and guides.",
+   "kind": "guide",
+   "official": false,
+   "scores": {
+    "reliability": 25,
+    "quality": 49.4,
+    "safety": 100,
+    "quality_before_claims": 54.4
+   },
+   "measured_score": 57.4,
+   "community_score": 0,
+   "community_bayes_score": 0,
+   "community_weight_applied": 0,
+   "trust_score": 57.4,
+   "confidence": "medium",
+   "metrics_covered": [
+    "reliability",
+    "quality",
+    "safety"
+   ],
+   "metrics_applicable": [
+    "reliability",
+    "quality",
+    "speed",
+    "safety"
+   ],
+   "excluded_from_ranking": false,
+   "basis": {
+    "reliability": "repo freshness (no live URL)",
+    "quality": "usefulness heuristic (docs depth, network-specific, live product, license, stars); no inference endpoint to test",
+    "safety": "README/homepage scan: token-sale, secret requests, impersonation, Sybil-evasion, lookalike domains, wallet access",
+    "claims": "claims check 2026-11-10: README/homepage claims tested via live fetch + static repo check; quality -5"
+   },
+   "metrics": {
+    "days_since_push": 76,
+    "safety_flags": [],
+    "safety_positives": [
+     "links official FLOP domains"
+    ],
+    "data_access": [
+     "handles a private key/seed (check where it is stored)"
+    ]
+   },
+   "evidence": {
+    "links": [
+     "https://github.com/d4ncboz/awesome-technocore"
+    ],
+    "github": {
+     "stars": 14,
+     "pushed_at": "2026-08-26T06:08:23Z",
+     "license": "NOASSERTION",
+     "archived": false
+    },
+    "http": [],
+    "npm": null
+   },
+   "claims": [
+    "Curated list of Technocore tools, SDKs and guides",
+    "Describes technocore.chat as a decentralized web client and flop.finance as an official currency hub"
+   ],
+   "claims_verdict": "Partly",
+   "claims_note": "Its 4 GitHub links resolve, but the list is thin and the descriptions are inaccurate: technocore.chat is a centralized zero-auth HTTP chat server, and no FLOP currency exists before TGE.",
+   "claims_evidence": [
+    "https://technocore.chat"
+   ],
+   "claims_penalty": -5,
+   "category_rank": 4
+  },
+  {
+   "id": "flopfinance-verify",
+   "name": "Flop Finance Verify",
+   "category": "Agent network & identity",
+   "service_description": "Third-party DID 'vault' and verification suite that labels itself 'Official' for flop.finance.",
+   "kind": "tool",
+   "official": false,
+   "scores": {
+    "reliability": 55,
+    "quality": 85.0,
+    "speed": 100,
+    "safety": 60,
+    "quality_before_claims": 90
+   },
+   "measured_score": 72.2,
+   "community_score": 0,
+   "community_bayes_score": 0,
+   "community_weight_applied": 0,
+   "trust_score": 72.2,
+   "confidence": "high",
+   "metrics_covered": [
+    "reliability",
+    "quality",
+    "speed",
+    "safety"
+   ],
+   "metrics_applicable": [
+    "reliability",
+    "quality",
+    "speed",
+    "safety"
+   ],
+   "excluded_from_ranking": true,
+   "basis": {
+    "reliability": "URL uptime probe + repo freshness",
+    "quality": "usefulness heuristic (docs depth, network-specific, live product, license, stars); no inference endpoint to test",
+    "speed": "HTTP response time of live URL (single probe from US-East sandbox)",
+    "safety": "README/homepage scan: token-sale, secret requests, impersonation, Sybil-evasion, lookalike domains, wallet access",
+    "claims": "claims check 2026-11-10: README/homepage claims tested via live fetch + static repo check; quality -5"
+   },
+   "metrics": {
+    "http_up": "1/1",
+    "days_since_push": 76.8,
+    "http_ms_median": 72,
+    "safety_flags": [
+     {
+      "severity": "high",
+      "code": "impersonation",
+      "detail": "Third-party project presents itself as \"Official\"."
+     }
+    ],
+    "safety_positives": [
+     "links official FLOP domains"
+    ],
+    "data_access": [
+     "handles a private key/seed (check where it is stored)"
+    ]
+   },
+   "evidence": {
+    "links": [
+     "https://github.com/0xrohitsen/flopfinance-verify",
+     "https://flopfinance-verify.vercel.app"
+    ],
+    "github": {
+     "stars": 0,
+     "pushed_at": "2026-08-25T12:31:26Z",
+     "license": "MIT",
+     "archived": false
+    },
+    "http": [
+     {
+      "url": "https://flopfinance-verify.vercel.app",
+      "status": 200,
+      "ms": 72
+     }
+    ],
+    "npm": null
+   },
+   "claims": [
+    "'Official' human verification and DID vault for Flop Finance",
+    "Web suite plus Python CLI (flop_second_cli.py)",
+    "Live room proxy and sequence verifier"
+   ],
+   "claims_verdict": "Partly",
+   "claims_note": "The site, CLI and /api/proxy to technocore.chat work, but the headline 'Official' claim is false: it is a third-party build by @bigbrainless, not on the official domain list.",
+   "claims_evidence": [
+    "https://flopfinance-verify.vercel.app",
+    "https://flopfinance-verify.vercel.app/api/proxy/llms.txt"
+   ],
+   "claims_penalty": -5,
+   "claims_risky": true
+  },
+  {
+   "id": "mohsolo78-inference-cluster",
+   "name": "flop-inference-cluster",
+   "category": "Other",
+   "service_description": "Scripted 'humanoid' node with randomized delays designed to avoid Sybil detection.",
+   "kind": "agent",
+   "official": false,
+   "scores": {
+    "reliability": 50,
+    "quality": 0,
+    "safety": 55,
+    "quality_before_claims": 13.3
+   },
+   "measured_score": 36.4,
+   "community_score": 0,
+   "community_bayes_score": 0,
+   "community_weight_applied": 0,
+   "trust_score": 36.4,
+   "confidence": "medium",
+   "metrics_covered": [
+    "reliability",
+    "quality",
+    "safety"
+   ],
+   "metrics_applicable": [
+    "reliability",
+    "quality",
+    "speed",
+    "safety"
+   ],
+   "excluded_from_ranking": true,
+   "basis": {
+    "reliability": "repo freshness (no live URL)",
+    "quality": "usefulness heuristic (docs depth, network-specific, live product, license, stars); no inference endpoint to test",
+    "safety": "README/homepage scan: token-sale, secret requests, impersonation, Sybil-evasion, lookalike domains, wallet access",
+    "claims": "claims check 2026-11-10: README/homepage claims tested via live fetch + static repo check; quality -15"
+   },
+   "metrics": {
+    "days_since_push": 56.5,
+    "safety_flags": [
+     {
+      "severity": "high",
+      "code": "sybil_evasion",
+      "detail": "Designed to evade Sybil/bot detection, against FLOP testnet rules (one participant, one score)."
+     }
+    ],
+    "safety_positives": [],
+    "data_access": []
+   },
+   "evidence": {
+    "links": [
+     "https://github.com/mohsolo78/flop-inference-cluster"
+    ],
+    "github": {
+     "stars": 3,
+     "pushed_at": "2026-09-14T19:06:40Z",
+     "license": null,
+     "archived": false
+    },
+    "http": [],
+    "npm": null
+   },
+   "claims": [
+    "'Inference cluster' / signing node",
+    "README argues it will not be considered a Sybil"
+   ],
+   "claims_verdict": "Not verified",
+   "claims_note": "index.js runs no inference: it posts rotating templated phrases to tclk-offers, with a hard-coded DID and a 'fallback-test-key' secret.",
+   "claims_evidence": [
+    "repo: index.js"
+   ],
+   "claims_penalty": -15,
+   "claims_risky": true
+  },
+  {
+   "id": "mohamedsilah-advanced-miner",
+   "name": "flop-advanced-miner",
+   "category": "Other",
+   "service_description": "Self-described 'stealth agent' for Technocore/tclk; no README.",
+   "kind": "agent",
+   "official": false,
+   "scores": {
+    "reliability": 0,
+    "quality": 0,
+    "safety": 55,
+    "quality_before_claims": 6
+   },
+   "measured_score": 21.2,
+   "community_score": 0,
+   "community_bayes_score": 0,
+   "community_weight_applied": 0,
+   "trust_score": 21.2,
+   "confidence": "medium",
+   "metrics_covered": [
+    "reliability",
+    "quality",
+    "safety"
+   ],
+   "metrics_applicable": [
+    "reliability",
+    "quality",
+    "speed",
+    "safety"
+   ],
+   "excluded_from_ranking": true,
+   "basis": {
+    "reliability": "repo freshness (no live URL)",
+    "quality": "usefulness heuristic (docs depth, network-specific, live product, license, stars); no inference endpoint to test",
+    "safety": "README/homepage scan: token-sale, secret requests, impersonation, Sybil-evasion, lookalike domains, wallet access",
+    "claims": "claims check 2026-11-10: README/homepage claims tested via live fetch + static repo check; quality -15"
+   },
+   "metrics": {
+    "days_since_push": 58.4,
+    "safety_flags": [
+     {
+      "severity": "high",
+      "code": "sybil_evasion",
+      "detail": "Designed to evade Sybil/bot detection, against FLOP testnet rules (one participant, one score)."
+     }
+    ],
+    "safety_positives": [],
+    "data_access": []
+   },
+   "evidence": {
+    "links": [
+     "https://github.com/mohamedsilah/flop-advanced-miner"
+    ],
+    "github": {
+     "stars": 3,
+     "pushed_at": "2026-09-12T20:47:11Z",
+     "license": null,
+     "archived": false
+    },
+    "http": [],
+    "npm": null
+   },
+   "claims": [
+    "'Advanced miner' ('hyper-stealth instance')"
+   ],
+   "claims_verdict": "Not verified",
+   "claims_note": "index.js mines nothing. It fabricates 'mining profitability' with Math.random and posts templated messages with human-like jitter to evade detection.",
+   "claims_evidence": [
+    "repo: index.js"
+   ],
+   "claims_penalty": -15,
+   "claims_risky": true
+  }
+ ],
+ "warnings": {
+  "statement": "No FLOP token exists before mainnet/TGE (targeted Q1 2027). No official Discord or Telegram. Official domains: flop.finance, flop.network (+ api., mcp., docs., explorer.devnet., faucet., rpc.devnet.), ask.flop.finance, technocore.chat, github.com/flop-labs, npm @flop-labs.",
+  "tokens": [
+   {
+    "chain": "solana",
+    "dex": "pumpswap",
+    "symbol": "FLOP",
+    "name": "Flop Labs",
+    "address": "HwCG1Jr6RbAVsKX1qTaH6JtFYGeE6zaLd13W44YGpump",
+    "pair_created": "2026-08-22T06:14:48.000Z",
+    "liquidity_usd": 13415.5,
+    "fdv_usd": 31556,
+    "url": "https://dexscreener.com/solana/hqkmkjntrikhvcmwk612w5czmheryyv8r7fktchsyvas",
+    "verdict": "NOT OFFICIAL: uses the FLOP name or ticker; FLOP has no token"
+   },
+   {
+    "chain": "solana",
+    "dex": "pumpswap",
+    "symbol": "FLOP",
+    "name": "FLOP COIN",
+    "address": "4ddZmkmhHJ2C6436znty5s3YpezEkEX6S1oebwhapump",
+    "pair_created": "2026-10-04T23:08:48.000Z",
+    "liquidity_usd": 12088.55,
+    "fdv_usd": 29220,
+    "url": "https://dexscreener.com/solana/cwdasmw7vwkxhgiip7h7kt2v5e2g1duerxsb5e9xnrx7",
+    "verdict": "NOT OFFICIAL: uses the FLOP name or ticker; FLOP has no token"
+   },
+   {
+    "chain": "pulsechain",
+    "dex": "9inch",
+    "symbol": "FLOP",
+    "name": "Flopcoin",
+    "address": "0xA8B4e655d77aC9AE98521b53bB6b9b26a7F93c68",
+    "pair_created": "2023-12-05T16:43:25.000Z",
+    "liquidity_usd": 222.53,
+    "fdv_usd": 5319,
+    "url": "https://dexscreener.com/pulsechain/0xd5afc518dd7cf38d836334bb340230320792a78b",
+    "verdict": "unrelated name collision (pre-dates Flop Labs)"
+   },
+   {
+    "chain": "xrpl",
+    "dex": "xrpl",
+    "symbol": "FLOP",
+    "name": "FLOP",
+    "address": "464C4F5000000000000000000000000000000000.rwKyqD8ncvnu9RnNmDfB1v1r2dtDaBL4yh",
+    "pair_created": "2026-11-09T13:21:50.000Z",
+    "liquidity_usd": null,
+    "fdv_usd": 69048000,
+    "url": "https://dexscreener.com/xrpl/464c4f5000000000000000000000000000000000.rwkyqd8ncvnu9rnnmdfb1v1r2dtdabl4yh_xrp",
+    "verdict": "NOT OFFICIAL: uses the FLOP name or ticker; FLOP has no token"
+   },
+   {
+    "chain": "solana",
+    "dex": "pumpfun",
+    "symbol": "FLOP",
+    "name": "Flop Network",
+    "address": "BiqJUcJSAqhgr8qW5jmzN88rHLSNb1MWfzKruezupump",
+    "pair_created": "2026-11-01T08:58:09.000Z",
+    "liquidity_usd": null,
+    "fdv_usd": 2448.99,
+    "url": "https://dexscreener.com/solana/6stzge4jpb5xtb5hvx8pzgnuyy1drzysxnkv59bub1ha",
+    "verdict": "NOT OFFICIAL: uses the FLOP name or ticker; FLOP has no token"
+   },
+   {
+    "chain": "solana",
+    "dex": "pumpfun",
+    "symbol": "Flop",
+    "name": "Flip",
+    "address": "24dY4C9pkenBQmP71YRPC3B97HE2B3rt5TMm1qPHpump",
+    "pair_created": "2026-11-09T17:15:45.000Z",
+    "liquidity_usd": null,
+    "fdv_usd": 2417.61,
+    "url": "https://dexscreener.com/solana/7ovgtvcmjaakq3amaw2obtpcah1g82tr9d2rycxybqbv",
+    "verdict": "NOT OFFICIAL: uses the FLOP name or ticker; FLOP has no token"
+   }
+  ],
+  "flagged_projects": [
+   {
+    "id": "flopfinance-verify",
+    "name": "Flop Finance Verify",
+    "flags": [
+     {
+      "severity": "high",
+      "code": "impersonation",
+      "detail": "Third-party project presents itself as \"Official\"."
+     }
+    ],
+    "link": "https://github.com/0xrohitsen/flopfinance-verify"
+   },
+   {
+    "id": "mohsolo78-inference-cluster",
+    "name": "flop-inference-cluster",
+    "flags": [
+     {
+      "severity": "high",
+      "code": "sybil_evasion",
+      "detail": "Designed to evade Sybil/bot detection, against FLOP testnet rules (one participant, one score)."
+     }
+    ],
+    "link": "https://github.com/mohsolo78/flop-inference-cluster"
+   },
+   {
+    "id": "mohamedsilah-advanced-miner",
+    "name": "flop-advanced-miner",
+    "flags": [
+     {
+      "severity": "high",
+      "code": "sybil_evasion",
+      "detail": "Designed to evade Sybil/bot detection, against FLOP testnet rules (one participant, one score)."
+     }
+    ],
+    "link": "https://github.com/mohamedsilah/flop-advanced-miner"
+   }
+  ]
+ },
+ "publisher": "FlopRadar (flopradar.com). Independent. Not affiliated with Flop Labs.",
+ "licence_note": "Free to download and reuse with attribution to flopradar.com.",
+ "methodology": "https://flopradar.com/#methodology"
+}

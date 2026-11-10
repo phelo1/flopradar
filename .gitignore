@@ -1,0 +1,7 @@
+node_modules/
+scorer/config.json
+*.key
+*key*.json
+!scorer/impersonators.json
+.env
+screenshots/

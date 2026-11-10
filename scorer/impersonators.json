@@ -1,0 +1,6 @@
+{
+  "_note": "Warning list. FLOP has no token: anything trading as FLOP / Flop Labs / Flop Network is not official (flop.finance/testnet, docs). Pulled from the DexScreener search API (q=FLOP) on 2026-11-10; the scorer refreshes it.",
+  "official_statement": "No FLOP token exists before mainnet/TGE (targeted Q1 2027). No official Discord or Telegram. Official domains: flop.finance, flop.network (+ api., mcp., docs., explorer.devnet., faucet., rpc.devnet.), ask.flop.finance, technocore.chat, github.com/flop-labs, npm @flop-labs.",
+  "name_patterns": ["flop labs", "flop network", "flop coin", "flop ai", "flop finance", "technocore"],
+  "symbol_patterns": ["FLOP"]
+}

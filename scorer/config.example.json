@@ -1,0 +1,80 @@
+{
+  "network": "flop-devnet",
+  "paths": {
+    "agent_key_file": "<path to your agent key file, never commit>",
+    "gateway_key_file": "<path to your gateway key file, never commit>",
+    "candidates": "candidates.json",
+    "testset": "testset.json",
+    "impersonators": "impersonators.json",
+    "evidence_dir": "../evidence",
+    "runs_dir": "../data/runs",
+    "votes_file": "../data/votes.json",
+    "output": "../data/leaderboard.json"
+  },
+  "endpoints": {
+    "explorer_api": "https://explorer.devnet.flop.network/api",
+    "explorer_web": "https://explorer.devnet.flop.network",
+    "gateway": "https://api.flop.network/v1",
+    "faucet": "https://faucet.flop.network",
+    "dexscreener_search": "https://api.dexscreener.com/latest/dex/search?q=FLOP"
+  },
+  "official_domains": [
+    "flop.finance",
+    "flop.network",
+    "ask.flop.finance",
+    "technocore.chat",
+    "github.com/flop-labs",
+    "npmjs.com/package/@flop-labs"
+  ],
+  "weights": {
+    "reliability": 0.25,
+    "quality": 0.25,
+    "speed": 0.15,
+    "cost": 0.1,
+    "safety": 0.25
+  },
+  "safety_gate": {
+    "cap_below": 50,
+    "exclude_if_high_flag": true
+  },
+  "inference": {
+    "enabled": true,
+    "repeats_per_item": 1,
+    "llm_judge": true,
+    "settle_poll_seconds": 15,
+    "settle_poll_max": 20,
+    "max_total_quota_flop": 50
+  },
+  "onchain": {
+    "pages": 5,
+    "page_size": 100,
+    "funded_min_escrow_wei": "2"
+  },
+  "github": {
+    "cache_hours": 6
+  },
+  "speed": {
+    "http_good_ms": 300,
+    "http_bad_ms": 5000,
+    "ttft_good_ms": 800,
+    "ttft_bad_ms": 15000,
+    "total_good_ms": 2000,
+    "total_bad_ms": 30000
+  },
+  "cost": {
+    "good_flop_per_answer": 0.01,
+    "bad_flop_per_answer": 10
+  },
+  "voting": {
+    "max_weight": 0.15,
+    "full_weight_at_effective_votes": 50,
+    "voter_weights": {
+      "anonymous": 0.2,
+      "wallet_signed": 1.0,
+      "wallet_with_settled_sessions": 3.0
+    },
+    "wilson_z": 1.96,
+    "prior_mean": 0.5,
+    "prior_strength": 10
+  }
+}

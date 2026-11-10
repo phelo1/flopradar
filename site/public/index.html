@@ -1,0 +1,322 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>FlopRadar: independent trust scores for Flop Network apps</title>
+<meta name="description" content="FlopRadar tests and ranks apps built on the Flop Network for reliability, quality, safety, speed and cost, checks whether each one does what it claims, and flags fake FLOP tokens. Independent. Not affiliated with Flop Labs.">
+<meta name="theme-color" content="#04080a">
+<link rel="canonical" href="https://flopradar.com/">
+<meta property="og:title" content="FlopRadar: independent trust scores for Flop Network apps">
+<meta property="og:description" content="53 Flop Network apps found, tested and scored. Claims checked. Scam tokens flagged. Independent. Not affiliated with Flop Labs.">
+<meta property="og:url" content="https://flopradar.com/">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="FlopRadar">
+<meta property="og:locale" content="en_US">
+<meta property="og:image" content="https://flopradar.com/og.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="FlopRadar: independent trust scores for Flop Network apps">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="FlopRadar: independent trust scores for Flop Network apps">
+<meta name="twitter:description" content="53 Flop Network apps found, tested and scored. Claims checked. Scam tokens flagged. Independent. Not affiliated with Flop Labs.">
+<meta name="twitter:image" content="https://flopradar.com/og.png">
+<link rel="icon" href="/favicon.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" href="/apple-touch-icon.png">
+<link rel="stylesheet" href="/styles.css">
+<script src="/app.js" defer></script>
+</head>
+<body>
+<a class="skip" href="#leaderboard">Skip to leaderboard</a>
+
+<header class="nav" id="top">
+  <div class="wrap nav-in">
+    <a class="brand" href="#top" aria-label="FlopRadar home">
+      <svg class="brand-mark" viewBox="0 0 32 32" aria-hidden="true"><circle cx="16" cy="16" r="14" fill="none" stroke="currentColor" stroke-opacity=".35" stroke-width="1.5"/><circle cx="16" cy="16" r="8.5" fill="none" stroke="currentColor" stroke-opacity=".55" stroke-width="1.5"/><path d="M16 16 L16 2 A14 14 0 0 1 28.1 9 Z" fill="currentColor" fill-opacity=".5"/><circle cx="16" cy="16" r="2.2" fill="currentColor"/><circle cx="22.5" cy="8.8" r="1.6" fill="currentColor"/></svg>
+      <span>Flop<b>Radar</b></span>
+    </a>
+    <button class="menu-btn" type="button" aria-expanded="false" aria-controls="nav-list" aria-label="Open menu">
+      <svg viewBox="0 0 24 24" aria-hidden="true"><path class="l1" d="M4 7h16"/><path class="l2" d="M4 12h16"/><path class="l3" d="M4 17h16"/></svg>
+    </button>
+    <nav aria-label="Sections">
+      <ul id="nav-list">
+        <li><a href="#leaderboard">Leaderboard</a></li>
+        <li><a href="#checker">Token checker</a></li>
+        <li><a href="#scams">Scam alerts</a></li>
+        <li><a href="#methodology">Methodology</a></li>
+        <li><a href="#api">API</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+
+<main>
+<section class="hero" aria-labelledby="hero-title">
+  <div class="radar" aria-hidden="true">
+    <div class="ring r1"></div><div class="ring r2"></div><div class="ring r3"></div><div class="ring r4"></div>
+    <div class="cross"></div>
+    <div class="sweep"></div>
+    <span class="blip b1"></span><span class="blip b2"></span><span class="blip b3"></span><span class="blip b4 warn"></span><span class="blip b5"></span>
+  </div>
+  <div class="wrap hero-in">
+    <p class="eyebrow"><span class="dot"></span> Devnet prototype · scores are indicative</p>
+    <h1 id="hero-title">FlopRadar: <span class="hl">independent trust scores</span> for Flop Network apps.</h1>
+    <p class="lede">We find the apps, tools and guides built on the Flop Network, test them, check whether they do what they claim, and flag the scams. Nobody pays for a better score.</p>
+    <div class="cta">
+      <a class="btn primary" href="#leaderboard">See the leaderboard</a>
+      <a class="btn" href="#checker">Check a token</a>
+    </div>
+
+    <dl class="stats" aria-label="Headline numbers">
+      <div class="stat"><dt>Apps found</dt><dd data-stat="items">53</dd></div>
+      <div class="stat"><dt>Ranked overall</dt><dd data-stat="ranked">40</dd><span class="sub" data-stat="guides-sub">+10 guides ranked in category</span></div>
+      <div class="stat danger"><dt>Scam flags</dt><dd data-stat="flagged">3</dd><span class="sub">excluded from every ranking</span></div>
+      <div class="stat wide">
+        <dt>Does it do what it claims?</dt>
+        <dd class="claims-bar" aria-hidden="true"><span class="seg v" data-seg="Verified"></span><span class="seg p" data-seg="Partly"></span><span class="seg n" data-seg="Not verified"></span><span class="seg u" data-seg="Untestable"></span></dd>
+        <ul class="claims-legend">
+          <li><i class="k v"></i>Verified <b data-claims="Verified">42</b></li>
+          <li><i class="k p"></i>Partly <b data-claims="Partly">7</b></li>
+          <li><i class="k n"></i>Not verified <b data-claims="Not verified">3</b></li>
+          <li><i class="k u"></i>Untestable <b data-claims="Untestable">1</b></li>
+        </ul>
+        <span class="sub">across <span data-stat="items">53</span> items</span>
+      </div>
+    </dl>
+  </div>
+</section>
+
+<div class="banner" role="note">
+  <div class="wrap banner-in">
+    <strong>No official FLOP token exists.</strong>
+    <span>There is no token before mainnet/TGE (targeted Q1 2027). Anything trading as FLOP today is not from Flop Labs. <a href="#checker">Check a token</a></span>
+  </div>
+</div>
+
+<section class="section" id="leaderboard" aria-labelledby="lb-title">
+  <div class="wrap">
+    <div class="sec-head">
+      <p class="kicker">01 · Leaderboard</p>
+      <h2 id="lb-title">Trust leaderboard</h2>
+      <p class="sec-lede">Scored 0–100 on reliability, quality, safety, speed and cost, then checked against what each project claims. Select a row for evidence, safety flags and the claims note.</p>
+    </div>
+
+    <div class="controls">
+      <div class="tabs" role="tablist" aria-label="Ranking view">
+        <button role="tab" id="tab-overall" aria-selected="true" data-view="overall">Overall <span class="count" data-count="overall">40</span></button>
+        <button role="tab" id="tab-guides" aria-selected="false" data-view="guides">Guides <span class="count" data-count="guides">10</span></button>
+      </div>
+      <label class="field search">
+        <span class="sr">Search apps</span>
+        <svg viewBox="0 0 20 20" aria-hidden="true"><circle cx="8.5" cy="8.5" r="5.5" fill="none" stroke="currentColor" stroke-width="1.6"/><path d="M13 13l4 4" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/></svg>
+        <input id="q" type="search" placeholder="Search apps, descriptions, claims" autocomplete="off">
+      </label>
+      <label class="field select">
+        <span class="sr">Category</span>
+        <select id="cat"><option value="">All categories</option></select>
+      </label>
+      <div class="sort-m">
+        <label class="field select">
+          <span class="sr">Sort by</span>
+          <select id="sort-m">
+            <option value="rank">Sort: Rank</option>
+            <option value="trust_score">Sort: Score</option>
+            <option value="name">Sort: Name</option>
+            <option value="category">Sort: Category</option>
+            <option value="reliability">Sort: Reliability</option>
+            <option value="quality">Sort: Quality</option>
+            <option value="safety">Sort: Safety</option>
+            <option value="speed">Sort: Speed</option>
+            <option value="cost">Sort: Cost</option>
+            <option value="claims_verdict">Sort: Does what it claims?</option>
+          </select>
+        </label>
+        <button type="button" class="dir-btn" id="sort-dir" aria-label="Sort direction: ascending"><span aria-hidden="true">↑</span></button>
+      </div>
+    </div>
+    <p class="view-note" id="view-note">Everything except guides, ranked together. Guides are ranked within their category in the Guides tab.</p>
+
+    <ol class="lb-cards" id="lb-cards" aria-label="Leaderboard"><li class="lc-empty">Loading the latest scores…</li></ol>
+    <div class="table-wrap lb-wrap" tabindex="0" role="region" aria-labelledby="lb-title">
+      <table class="lb" id="lb">
+        <caption class="sr">Flop Network apps ranked by trust score. Column headers sort the table.</caption>
+        <thead>
+          <tr>
+            <th scope="col" class="c-rank" data-sort="rank" aria-sort="ascending"><button>#</button></th>
+            <th scope="col" class="c-app" data-sort="name"><button>App</button></th>
+            <th scope="col" class="c-cat" data-sort="category"><button>Category</button></th>
+            <th scope="col" class="c-num c-score" data-sort="trust_score"><button>Score</button></th>
+            <th scope="col" class="c-num c-m" data-sort="reliability"><button>Reliability</button></th>
+            <th scope="col" class="c-num c-m" data-sort="quality"><button>Quality</button></th>
+            <th scope="col" class="c-num c-m" data-sort="safety"><button>Safety</button></th>
+            <th scope="col" class="c-num c-m" data-sort="speed"><button>Speed</button></th>
+            <th scope="col" class="c-num c-m" data-sort="cost"><button>Cost</button></th>
+            <th scope="col" class="c-verdict" data-sort="claims_verdict"><button>Does what it claims?</button></th>
+          </tr>
+        </thead>
+        <tbody id="lb-body">
+          <tr><td colspan="10" class="loading">Loading the latest scores…</td></tr>
+        </tbody>
+      </table>
+    </div>
+    <div class="legend">
+      <span><i class="pend-dot"></i><b>Pending</b>: live inference tests queued (the metric applies but has not been measured yet; it counts as a neutral 50 at half weight).</span>
+      <span><b>n/a</b>: does not apply (cost is only scored for apps that buy inference).</span>
+      <span>Confidence: <b>high</b> = every applicable metric measured, <b>medium</b> = one missing.</span>
+    </div>
+    <p class="dl-line"><a class="btn small" href="/data/leaderboard.json" download>Download leaderboard.json</a> <span>Free, the same data this page reads. Updated <span data-updated>2026-11-10</span>.</span></p>
+  </div>
+</section>
+
+<section class="section alt" id="checker" aria-labelledby="ck-title">
+  <div class="wrap two">
+    <div>
+      <p class="kicker">02 · Fake-token checker</p>
+      <h2 id="ck-title">Is this “FLOP” token real?</h2>
+      <p class="sec-lede"><strong>No.</strong> No official FLOP token exists before mainnet/TGE, targeted for Q1 2027. Paste an address or a token name to see whether it is a known fake. The check runs in your browser; nothing is sent anywhere.</p>
+      <form class="checker" id="checker-form" autocomplete="off">
+        <label for="tok" class="sr">Token address or name</label>
+        <input id="tok" type="text" placeholder="e.g. HwCG1…pump or “Flop Network”" spellcheck="false">
+        <button class="btn primary" type="submit">Check</button>
+      </form>
+      <div id="ck-result" class="ck-result" role="status" aria-live="polite"></div>
+    </div>
+    <aside class="official" aria-labelledby="off-title">
+      <h3 id="off-title">Official Flop domains</h3>
+      <ul class="domains">
+        <li><span>flop.finance</span></li>
+        <li><span>flop.network</span><small>api. · mcp. · docs. · explorer.devnet. · faucet. · rpc.devnet.</small></li>
+        <li><span>ask.flop.finance</span></li>
+        <li><span>technocore.chat</span></li>
+        <li><span>github.com/flop-labs</span></li>
+        <li><span>npm @flop-labs</span></li>
+      </ul>
+      <p class="muted">No official Discord or Telegram. Anyone selling a FLOP token, presale or airdrop claim today is not Flop Labs.</p>
+      <h3>Known fakes</h3>
+      <ul class="fakes" id="fake-list">
+        <li><b>Flop Labs</b> · Solana · HwCG1…pump</li>
+        <li><b>FLOP COIN</b> · Solana · 4ddZ…pump</li>
+        <li><b>Flop Network</b> · Solana · BiqJ…pump</li>
+        <li><b>Flip</b> · Solana · 24dY…pump</li>
+        <li><b>FLOP</b> · XRPL</li>
+      </ul>
+      <p class="muted small">“Flopcoin” on PulseChain is an unrelated older token with the same ticker, not a Flop Network token.</p>
+    </aside>
+  </div>
+</section>
+
+<section class="section" id="scams" aria-labelledby="sc-title">
+  <div class="wrap">
+    <div class="sec-head">
+      <p class="kicker danger">03 · Scam alerts</p>
+      <h2 id="sc-title">Excluded projects</h2>
+      <p class="sec-lede">These projects tripped a high-severity safety flag, so they are left out of every ranking. Be careful with them.</p>
+    </div>
+    <div class="scam-grid" id="scam-grid"></div>
+  </div>
+</section>
+
+<section class="section alt" id="methodology" aria-labelledby="me-title">
+  <div class="wrap">
+    <div class="sec-head">
+      <p class="kicker">04 · Methodology</p>
+      <h2 id="me-title">How a score is made</h2>
+      <p class="sec-lede">An independent judging agent finds Flop Network apps, tests them and scores each 0–100. The method is fixed and public. <strong>Payment never changes a score.</strong></p>
+    </div>
+    <div class="meth">
+      <div class="card">
+        <h3>Five measured metrics</h3>
+        <ul class="weights">
+          <li><span>Reliability</span><b>25</b><i class="bar" data-w="25"></i></li>
+          <li><span>Quality</span><b>25</b><i class="bar" data-w="25"></i></li>
+          <li><span>Safety</span><b>25</b><i class="bar" data-w="25"></i></li>
+          <li><span>Speed</span><b>15</b><i class="bar" data-w="15"></i></li>
+          <li><span>Cost</span><b>10</b><i class="bar" data-w="10"></i></li>
+        </ul>
+        <p class="muted small">Weights out of 100. Cost only counts for apps that buy inference. A metric that applies but could not be measured enters as a neutral 50 at half weight.</p>
+      </div>
+      <div class="card">
+        <h3>What each metric means</h3>
+        <dl class="defs">
+          <dt>Reliability</dt><dd>On-chain settle rate for inference apps; live-URL uptime plus repo freshness for tools and dashboards.</dd>
+          <dt>Quality</dt><dd>A fixed 8-prompt test set graded by rules and a judging pass for inference apps; documentation depth and usefulness for tools.</dd>
+          <dt>Safety</dt><dd>Scan for token-sale promotion, seed-phrase or key requests, fake “Official” claims, Sybil evasion and lookalike domains. Below 50, the whole score is capped at the safety score.</dd>
+          <dt>Speed</dt><dd>Time to first token and full response, or HTTP response time of the live site.</dd>
+          <dt>Cost</dt><dd>Devnet FLOP per answer from the settled receipt, on a log scale.</dd>
+        </dl>
+      </div>
+      <div class="card">
+        <h3>Does it do what it claims?</h3>
+        <p>For every item we list 2–4 concrete claims from its README or homepage and test what we safely can: live URLs and APIs, static repo checks, pinned digests. Repo code is never executed.</p>
+        <table class="mini">
+          <thead><tr><th scope="col">Verdict</th><th scope="col">Quality penalty</th></tr></thead>
+          <tbody>
+            <tr><td><span class="vd v">Verified</span></td><td>0</td></tr>
+            <tr><td><span class="vd p">Partly</span></td><td>−5</td></tr>
+            <tr><td><span class="vd n">Not verified</span></td><td>−15</td></tr>
+            <tr><td><span class="vd u">Untestable</span></td><td>0</td></tr>
+          </tbody>
+        </table>
+      </div>
+      <div class="card">
+        <h3>Community votes, capped</h3>
+        <p>Votes can add at most <b>15%</b> of the final score. The community score is the <b>Wilson lower bound</b> of the weighted upvote share, so a handful of votes barely moves anything, and the weight only reaches 15% at 50 effective weighted votes.</p>
+        <pre class="formula" aria-label="trust score formula">trust = (1 − w) · measured + w · community
+w     = 0.15 · min(1, votes / 50)</pre>
+        <p class="muted small">Voter weights: anonymous 0.2, wallet-signed 1, wallet with settled sessions 3. Self-votes and voting blocs are discarded. The safety gate runs first, so votes can never lift a flagged project back into the rankings.</p>
+      </div>
+    </div>
+    <p class="muted small limits"><b>Known limits.</b> Devnet only: devnet FLOP has no value and the network may reset. Probes are a single snapshot, the claims check is a one-time manual pass, and live inference tests for third-party apps are queued until their endpoints are public. Treat scores as indicative.</p>
+  </div>
+</section>
+
+<section class="section" id="api" aria-labelledby="api-title">
+  <div class="wrap">
+    <div class="sec-head">
+      <p class="kicker">05 · API <span class="tag">Coming with testnet</span></p>
+      <h2 id="api-title">An API for agents</h2>
+      <p class="sec-lede">Agents will be able to query scores and run fresh checks, paying in FLOP over x402 (HTTP 402). The leaderboard stays free. Paying buys speed and depth, never a better score; owner-requested audits use the same method and are labelled as such.</p>
+    </div>
+    <div class="table-wrap api-wrap">
+      <table class="api" id="api-table">
+        <caption><span class="tag draft">Draft</span> Endpoints and placeholder prices. Not live yet; prices will be recalibrated once testnet costs are known.</caption>
+        <thead><tr><th scope="col">Endpoint</th><th scope="col">Returns</th><th scope="col">Price (placeholder)</th></tr></thead>
+        <tbody>
+          <tr><td data-label="Endpoint"><code>GET /v1/apps</code></td><td data-label="Returns">Full leaderboard JSON</td><td data-label="Price">Free, rate-limited</td></tr>
+          <tr><td data-label="Endpoint"><code>GET /v1/scam-check?token=</code></td><td data-label="Returns">Is this “FLOP” token fake?</td><td data-label="Price">Free</td></tr>
+          <tr><td data-label="Endpoint"><code>GET /v1/check?app=</code></td><td data-label="Returns">Trust score, claims verdict, safety flags, last tested</td><td data-label="Price">0.05 FLOP</td></tr>
+          <tr><td data-label="Endpoint"><code>POST /v1/check/live</code></td><td data-label="Returns">Fresh endpoint probe plus 3 judged inference calls</td><td data-label="Price">1 FLOP</td></tr>
+          <tr><td data-label="Endpoint"><code>POST /v1/audit</code></td><td data-label="Returns">Full audit of a new app or repo: claims, safety, about 16 judged calls, listed on this page, webhook when done (about 30 min)</td><td data-label="Price">10 FLOP</td></tr>
+        </tbody>
+      </table>
+    </div>
+    <p class="dl-line"><a class="btn small" href="/data/leaderboard.json" download>Download leaderboard.json</a> <span>Available now, free: the full dataset behind this page.</span></p>
+  </div>
+</section>
+
+<section class="section alt vote" aria-labelledby="vote-title">
+  <div class="wrap vote-in">
+    <div>
+      <p class="kicker">06 · Community</p>
+      <h2 id="vote-title">Community voting opens soon.</h2>
+      <p class="sec-lede">People and agents will be able to up- or down-vote apps, with wallet-signed votes from accounts with real settled sessions counting most. Votes stay a small, capped input; the tests decide most of every score.</p>
+    </div>
+    <div class="vote-tiers">
+      <div><b>0.2</b><span>Anonymous</span></div>
+      <div><b>1.0</b><span>Wallet-signed</span></div>
+      <div><b>3.0</b><span>Wallet with settled sessions</span></div>
+    </div>
+  </div>
+</section>
+</main>
+
+<footer class="foot">
+  <div class="wrap foot-in">
+    <p class="indep"><strong>Independent. Not affiliated with Flop Labs.</strong></p>
+    <p>Last updated <time data-updated>2026-11-10</time> · Devnet prototype, scores are indicative</p>
+    <p class="foot-links"><a href="/data/leaderboard.json">Data (JSON)</a><a href="#methodology">Methodology</a><a href="#checker">Token checker</a><a href="#top">Back to top ↑</a></p>
+    <p class="muted small">Nothing here is financial advice. FlopRadar never asks for a seed phrase or private key.</p>
+  </div>
+</footer>
+</body>
+</html>

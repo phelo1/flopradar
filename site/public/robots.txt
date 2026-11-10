@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://flopradar.com/sitemap.xml
